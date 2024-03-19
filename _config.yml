@@ -3,3 +3,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 gem "github-pages", group: :jekyll_plugins
+
+
+title: How cache accelerates the input-output (I/O) of the memory 
+description: A project for CS1102
