@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./tableofcontents.html).
+[Link to another page](./tableofcontents.md).
 
 There should be whitespace between paragraphs.
 
