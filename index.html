@@ -1,31 +1,19 @@
-<!DOCTYPE html>
+---
+layout: main
+---
 
-<html>
-<head>
-    <title> CS1102 | Cache Memory</title>  
-
-<script> 
-
-</script>
-</head>
-<body>
-  <h1>Welcome!</h1>
-  <h2>This is our group project on Cache Memory</h2>
-  <p>Navigate our website through this:</p>
-  <table>
-    <tr>
-      <th>Table of Contents</th>
-    </tr>
-    <tr>
-      <td>Introduction</td>
-    </tr>
-    <tr>
-      <td>About Us</td>
-    </tr>
-    <tr>
-      <td>Cache 101</td>
-    </tr>
-  </table>
-        
-</body>
-</html>
+{% for post in paginator.posts %}
+  <div class="chapter">
+    <a href="{{post.url | prepend: site.baseurl}}">
+      {% if post.img %}
+        <img src={{ "/assets/img/" | prepend: site.baseurl | append: post.img }} alt="{{post.title}}">
+      {% endif %}
+    </a>
+    <a href="{{post.url | prepend: site.baseurl}}">
+      <div class="chapter_inner">
+        <p class="chapter_number">{{post.date | date: '%Y, %b %d'}}</p>
+        <h3 class="chapter_title">{{post.title}}</h3>
+      </div>
+    </a>
+  </div>
+{% endfor %}
