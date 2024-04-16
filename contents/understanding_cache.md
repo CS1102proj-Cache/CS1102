@@ -16,7 +16,7 @@ With a smaller capacity, caches can only hold a small amount of data. It enables
 | **Memory type** | DRAM | SRAM  |
 | **Capacity** | Larger | Smaller  |
 | **Access Time**| Slower (60–100 nanoseconds) | Faster (1–20 nanoseconds) |
-
+</br></br>
 ### B. Role of Caches in Reducing Memory Access Time
 The cache is crucial in complementing the main memory. The features of fast access time and small capacity make cache suitable for storing frequently accessed data. The CPU can store and retrieve those data more quickly from the cache, reducing the performance bottlenecks in the computer system. As a result, the CPU can operate in a more efficient way and improve system performance.
 ```
@@ -24,4 +24,7 @@ CPU ←→ Cache ←→ Main memory
 ```
 
 ##### By Cheng Man Ho (56612619)
-[Back to Table of Contents](./table_of_contents.md)
+</br>
+
+[Back to Table of Contents](../table_of_contents.md) </br>
+[Back to Home Page](../index.md)
