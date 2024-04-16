@@ -35,3 +35,12 @@ If the data is not found in the L2 cache (cache miss), the CPU checks the L3 cac
 If the data is not present in any level of the cache hierarchy (cache miss), it must be fetched from the main memory, incurring a cache miss penalty. This retrieval process aims to minimize memory access time by storing frequently accessed data at levels closer to the CPU, reducing the need to access slower main memory and improving overall system performance.
 
 The hierarchical structure of the cache hierarchy allows for faster data retrieval by exploiting the principle of locality. Frequently accessed data is more likely to be found in the lower levels of the hierarchy, closer to the CPU, while less frequently accessed data is stored in higher-level caches or main memory. This organization helps to reduce the average memory access time and improve system performance.
+
+
+By Lo Wing Sze (55678893)
+
+
+| [Back to Table of Contents](../table_of_contents.md) | <br/>
+| [Back to Home Page](../index.md) |
+
+
