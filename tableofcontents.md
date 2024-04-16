@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Please navigate yourself to different topics:
-* [Introduction](/.introduction.md)
+* [Introduction](./introduction.md)
 * Understanding Cache
 * Principles of Cache Operation
 * Cache Hierarchy
