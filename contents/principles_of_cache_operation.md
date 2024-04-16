@@ -25,8 +25,10 @@ If the cache contains the required data, there will be a cache hit, which is def
 Cache performance can be measured by hit rate and miss rate. Hit rate is the percentage of cache hits,
 
 |**Hit rate** =  (Number of cache hits / Number of cache accesses) * 100%|
+|:-------------|
 
 On the other hand, miss rate is the percentage of cache misses,
 
-|**Miss rate** =  (Number of cache misses / Number of cache accesses) * 100% <span style="color: red;">OR</span> 1 - hit rate|
+|**Miss rate** =  (Number of cache misses / Number of cache accesses) * 100%  <span style="color: red;">OR</span>  1 - hit rate|
+|:-------------|
 
