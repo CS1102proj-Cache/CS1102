@@ -22,7 +22,7 @@ Larger cache sizes can accommodate more data, increasing the likelihood of cache
 
 Caches closer to the CPU, such as the L1 cache, have lower latency and faster access times. As caches move further away from the CPU, such as the L2 and L3 caches, the latency increases. This trade-off between speed and proximity is influenced by factors like cache organization, technology, and chip layout.
 
-![P1](./media/P1.jpeg)
+![P1](./media/P1.png)
 
 ### C. Retrieval process in cache hierarchy
 
