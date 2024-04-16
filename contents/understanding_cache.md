@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Understanding Caches
+## Understanding Caches
 
 ### A. Comparison of Main memory and Caches
 The major difference between caches’ and main meremory’s performance is access speed. As the primary storage unit, main memory is typically built using dynamic random access memory (DRAM), which requires continual refreshing*. Main memory provides a large storage capacity at low cost. Modern main memory is usually built in gigabytes (GB). Generally, main memory is located outside the processor.
