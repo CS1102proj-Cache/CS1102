@@ -41,5 +41,5 @@ Average memory access time can be calculated using the following formula:
 
 ##### By Cheng Man Ho (56612619)
   
-[Back to Table of Contents](../table_of_contents.md) |
-[Back to Home Page](../index.md)
+| [Back to Table of Contents](../table_of_contents.md) | <br/>
+| [Back to Home Page](../index.md) |
