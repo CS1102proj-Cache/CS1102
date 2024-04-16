@@ -1,49 +1,49 @@
 logo: # add logo name
-title: Bef - Enjoy Freedom
+title: CS1102 Project
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Project by CityU Students:
+  Developed by Lo Wing Sze
+  Content by Ng Wing Hei, Cheng Man Ho, Velez Hans Josef Tuble, and Lo Wing Sze
 permalink: ':title/'
 baseurl: "/bef" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: # add banner title
-banner-desc: # add banner description
+banner-title: How cache accelerates the input-output (I/O) of the memory # add banner title
+banner-desc: This is a web for a CS1102 project. # add banner description
 
 # Author settings
 author-pic: face.jpg # your photo
-author-name: # your name
-about-author: # about author
+author-name: Lo Wing Sze # your name
+# about-author: # about author
 email: your-email@domain.com # your email
-phone: (496)-169-6557 # your pnone number
-website: https://dwayne.example.com # you website
+# phone: (496)-169-6557 # your pnone number
+# website: https://dwayne.example.com # you website
 
-# Social link
-google_url:    # add url link
-twitter_url:   # add url link
-instagram_url: # add url link
-pinterest_url: # add url link
-dribbble_url:  # add url link
-facebook_url:  # add url link
+# # Social link
+# google_url:    # add url link
+# twitter_url:   # add url link
+# instagram_url: # add url link
+# pinterest_url: # add url link
+# dribbble_url:  # add url link
+# facebook_url:  # add url link
 
-# Disqus
-discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
+# # Disqus
+# discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
 
-# Newsletter
-mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+# # Newsletter
+# mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
-# Tracker
-analytics:
+# # Tracker
+# analytics:
 
-# Paginate
-paginate: 12
-paginate_path: /page:num/
+# # Paginate
+# paginate: 12
+# paginate_path: /page:num/
 
-# Build settings
-markdown: kramdown
+# # Build settings
+# markdown: kramdown
 plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
