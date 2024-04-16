@@ -27,5 +27,5 @@ CPU ←→ Cache ←→ Main memory
   
 ##### By Cheng Man Ho (56612619)
   
-[Back to Table of Contents](../table_of_contents.md) |
-[Back to Home Page](../index.md)
+| [Back to Table of Contents](../table_of_contents.md) | <br/>
+| [Back to Home Page](../index.md) |
