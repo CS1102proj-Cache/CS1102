@@ -1,7 +1,7 @@
-title: How Cache Accelerates the Input-Output (I/O) of the Memory
-description: | CS1102 - Course Project - 2023/2024 Semester B
-Developed by Lo Wing Sze (55678893)
-Content by Ng Wing Hei (56612889), Cheng Man Ho (56612619), Lo Wing Sze (55678893), Velez Hans Josef Tuble (56203178)
+title: "How Cache Accelerates the Input-Output (I/O) of the Memory"
+description: "CS1102 - Course Project - 2023/2024 Semester B"
+"Developed by Lo Wing Sze (55678893)"
+"Content by Ng Wing Hei (56612889), Cheng Man Ho (56612619), Lo Wing Sze (55678893), Velez Hans Josef Tuble (56203178)"
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
