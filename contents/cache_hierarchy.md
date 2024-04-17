@@ -26,6 +26,8 @@ Caches closer to the CPU, such as the L1 cache, have lower latency and faster ac
 
 <a href="https://www.researchgate.net/figure/A-classical-three-level-cache-hierarchy_fig1_362707415"><img src="./media/P1.png" alt="Image" height=300>
 
+<br/> <br/>
+
 ### C. Retrieval process in Cache Hierarchy
 
 The retrieval process in the cache hierarchy follows a hierarchical structure. When the CPU needs data or instructions, it first checks the L1 cache for the required data. This step is known as a cache hit, where the data is quickly accessed, reducing memory latency.
