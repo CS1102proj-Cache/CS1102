@@ -45,7 +45,7 @@ The hierarchical structure of the cache hierarchy allows for faster data retriev
 <a href="https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384"><img src="./media/P5.png" alt="Image" height=300>
 
 <br/> <br/> <br/>
-By Lo Wing Sze (55678893)
+##### By Lo Wing Sze (55678893)
 <br/> <br/>
 
 | [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
