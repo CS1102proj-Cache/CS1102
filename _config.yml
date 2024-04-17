@@ -4,3 +4,7 @@ description: Content by Lo Wing Sze (55678893), Ng Wing Hei (56612889), Cheng Ma
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+image_sizes:
+  small: 300
+  medium: 600
+  large: 1200
