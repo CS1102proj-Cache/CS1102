@@ -41,7 +41,7 @@ Every algorithm contains its advantages and disadvantages in using it, people sh
 ### B. Impact of cache algorithms on cache hit rates
 The cache algorithms are crucial in affecting the cache hit rates. The cache replacement policy determines which object to be evicted if a new object is inserted. The LRU and LFU would enhance the possibility of cache hits as they keep recently accessed data and frequently used data. The random replacement would result in poor hit rates due to the random nature of eviction.
 
-
+##### By Ng Wing Hei (56612889)
 
 | [Back to Table of Contents](../table_of_contents.md) |
 | [Back to Home Page](../index.md) |
