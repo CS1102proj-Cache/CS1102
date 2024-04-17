@@ -8,7 +8,7 @@ layout: contents
 
 Cache memory acts as a temporary storage area between the CPU and the main memory for quick memory access. Using the concept of locality to decide which information to store in the cache, the computer system can efficiently and conveniently access that information from the cache and reduce the average memory access time.
 
-photo
+<a href="https://www.geeksforgeeks.org/cache-memory-in-computer-organization/"><img src="./media/P5.png" alt="Image" height=300>
 
 ### B. Benefits of storing frequently accessed data in cache
 
