@@ -1,6 +1,10 @@
 ---
 layout: contents
 ---
+<head>
+  <link rel="stylesheet" href="../_layouts/styles.css">
+</head>
+
 # Introduction
 ### A. Introducing Caches
 Cache memory, or cache, is a type of high-speed memory. It is a temporary data storage unit for frequently accessed data. Caches can be a hardware or software component that is commonly used by central processor units (CPUs), web browsers, applications, and operating systems.
@@ -18,10 +22,4 @@ Cache memory, or cache, is a type of high-speed memory. It is a temporary data s
 
 | [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
 
-<style>
-  .right-align {
-    text-align: right;
-  }
-</style>
-
-<p style="right-align">Understanding Cache</p>
+<p class="right-float">Understanding Cache</p>
