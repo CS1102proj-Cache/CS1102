@@ -18,17 +18,14 @@ LRU represents the least recently used algorithm and it is one of the most famou
   - LRU is able to work well with data subject to locality concerns, showing that it is effective for applications where recently accessed items are likely to be accessed again soon. This attribute makes it suitable for applications with temporal locality.
 - Drawbacks
   - It would perform poorly when element files are accessed occasionally but consistently while other elements are accessed very frequently for a short duration and never accessed again. It would lead to inefficiency of cache utilization.
-  - A larger cache size is required to boost the efficiency.
-
-<br/>
+  - A larger cache size is required to boost the efficiency. <br/> 
 **LFU (Least Frequently Used)** <br/>
 LFU means the least frequently used algorithm and it monitors how many times it was accessed. Each object is associated with a counter which counts how many times it was accessed. If the list reaches the maximum capacity, objects with the lowest counters are evicted.
 - Benefits
   - Cache pollution can be avoided by evicting items that are accessed once or rarely, regardless of their recency.
   - It can keep items that are accessed more often than others and can manage cyclic access patterns better than LRU.
 - Drawbacks
-  - It would be ineffective for applications with evolving access patterns as the items that were popular in the past may not be popular in the present or future.
-<br/>
+  - It would be ineffective for applications with evolving access patterns as the items that were popular in the past may not be popular in the present or future. <br/> 
 **Random** <br/>
 In a random algorithm, it works very simple. It randomly selects an object and evicts it when it reaches maximum capacity. Every cache entry has the same probability of being replaced.
 - Benefits
