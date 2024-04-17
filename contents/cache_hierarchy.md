@@ -14,6 +14,8 @@ The L2 cache, also known as the secondary cache. It is larger in capacity but ha
 
 The highest level in the cache hierarchy is the L3 cache, which is a shared cache serving multiple cores or processors in a multi-core system. It has a larger capacity compared to the L1 and L2 caches but generally has higher latency. The L3 cache is often integrated on the processor chip or placed on a separate chip. Its purpose is to provide a larger cache capacity and shared resource for multiple cores, improving their access to frequently used data and reducing cache conflicts.
 
+<br/> <br/>
+
 ### B. Trade-offs between Cache Size, speed, and Proximity to CPU
 
 Cache hierarchy involves trade-offs between cache size, speed, and proximity to the CPU.
@@ -42,8 +44,9 @@ The hierarchical structure of the cache hierarchy allows for faster data retriev
 
 <a href="https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384"><img src="./media/P5.png" alt="Image" height=300>
 
+<br/> <br/> <br/>
 By Lo Wing Sze (55678893)
-
+<br/> <br/>
 
 | [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
 
