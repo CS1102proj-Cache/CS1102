@@ -2,6 +2,24 @@
 layout: default
 ---
 
+video
+
+
+[Table of Contents](./table_of_contents.md)
+
+method used
+
+
+
+
+
+
+
+
+
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./tableofcontents.md).
