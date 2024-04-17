@@ -39,5 +39,5 @@ from [https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-evicti
 
 
 
-[Back to Table of Contents](../table_of_contents.md) <br/>
-[Back to Home Page](../index.md)
+| [Back to Table of Contents](../table_of_contents.md) |
+| [Back to Home Page](../index.md) |
