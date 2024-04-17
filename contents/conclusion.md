@@ -19,10 +19,7 @@ Various cache designs can be incorporated to enhance the overall cache and syste
 - **Enhance cache security and reliability** <br/>
 It is of paramount importance to enhance the cache security and reliability to ensure the system’s stability and trustworthiness in using the cache. Unauthorized access to the cache and errors and failures would be minimized. <br/>
 
-<br/>
-<br/>
-<br/>
+<br/> <br/> <br/>
 ##### By Ng Wing Hei (56612889)
-<br/>
-<br/>
+<br/> <br/>
 | [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
