@@ -10,7 +10,7 @@ LRU, LFU, and random are the common cache replacement policies.
 
 photo
 
-**LRU (Least Recently Used)**
+**LRU (Least Recently Used)** <br/>
 LRU represents the least recently used algorithm and it is one of the most famous algorithms. The name LRU, implies that it keeps the least recently used objects at the top and evicts objects that have not been used when the list reaches the maximum capacity.
 - Benefits
   - It is fast and efficient in the view of cache management. The high-efficiency benefits for the applications that need quick access to used data.
@@ -20,7 +20,7 @@ LRU represents the least recently used algorithm and it is one of the most famou
   - A larger cache size is required to boost the efficiency.
 
 
-**LFU (Least Frequently Used)**
+**LFU (Least Frequently Used)** <br/>
 LFU means the least frequently used algorithm and it monitors how many times it was accessed. Each object is associated with a counter which counts how many times it was accessed. If the list reaches the maximum capacity, objects with the lowest counters are evicted.
 - Benefits
   - Cache pollution can be avoided by evicting items that are accessed once or rarely, regardless of their recency.
@@ -28,7 +28,7 @@ LFU means the least frequently used algorithm and it monitors how many times it 
 - Drawbacks
   - It would be ineffective for applications with evolving access patterns as the items that were popular in the past may not be popular in the present or future.
     
-**Random**
+**Random** <br/>
 In a random algorithm, it works very simple. It randomly selects an object and evicts it when it reaches maximum capacity. Every cache entry has the same probability of being replaced.
 - Benefits
   - It is easy and simple to implement because it does not keep references or the history of the items.
