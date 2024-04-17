@@ -17,7 +17,7 @@ More intelligent replacement policies can be developed to enhance the system’s
 - **Hybrid cache architecture** <br/>
 Various cache designs can be incorporated to enhance the overall cache and system efficiency. The hybrid cache architecture can leverage the strength of each cache respectively to accelerate memory access. <br/> <br/>
 - **Enhance cache security and reliability** <br/>
-It is of paramount importance to enhance the cache security and reliability to ensure the system’s stability and trustworthiness in using the cache. Unauthorized access to the cache and errors and failures would be minimized. <br/>
+It is of paramount importance to enhance the cache security and reliability to ensure the system’s stability and trustworthiness in using the cache. Unauthorized access to the cache and errors and failures would be minimized. 
 
 <br/> <br/> <br/>
 ##### By Ng Wing Hei (56612889)
