@@ -22,13 +22,13 @@ Larger cache sizes can accommodate more data, increasing the likelihood of cache
 
 Caches closer to the CPU, such as the L1 cache, have lower latency and faster access times. As caches move further away from the CPU, such as the L2 and L3 caches, the latency increases. This trade-off between speed and proximity is influenced by factors like cache organization, technology, and chip layout.
 
-[![P1](./media/P1.png)](https://www.researchgate.net/figure/A-classical-three-level-cache-hierarchy_fig1_362707415)
+<a href="https://www.researchgate.net/figure/A-classical-three-level-cache-hierarchy_fig1_362707415"><img src="./media/P1.png" alt="Image" height=300>
 
 ### C. Retrieval process in Cache Hierarchy
 
 The retrieval process in the cache hierarchy follows a hierarchical structure. When the CPU needs data or instructions, it first checks the L1 cache for the required data. This step is known as a cache hit, where the data is quickly accessed, reducing memory latency.
 
-[![P3](./media/P3.png)](https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720)
+<a href="https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720"><img src="./media/P3.png" alt="Image" height=300>
 
 If the data is not found in the L1 cache (cache miss), the CPU proceeds to check the L2 cache. The L2 cache is larger but slower than the L1 cache. If the data is present in the L2 cache (cache hit), it is fetched and provided to the CPU, reducing the need to access the main memory.
 
@@ -36,16 +36,15 @@ If the data is not found in the L2 cache (cache miss), the CPU checks the L3 cac
 
 If the data is not present in any level of the cache hierarchy (cache miss), it must be fetched from the main memory, incurring a cache miss penalty. This retrieval process aims to minimize memory access time by storing frequently accessed data at levels closer to the CPU, reducing the need to access slower main memory and improving overall system performance.
 
-[![P4](./media/P4.png)](https://www.edn.com/optimizing-for-cache-performance-part-1/)
+<a href="(https://www.edn.com/optimizing-for-cache-performance-part-1/)"><img src="./media/P4.png" alt="Image" height=300>
 
 The hierarchical structure of the cache hierarchy allows for faster data retrieval by exploiting the principle of locality. Frequently accessed data is more likely to be found in the lower levels of the hierarchy, closer to the CPU, while less frequently accessed data is stored in higher-level caches or main memory. This organization helps to reduce the average memory access time and improve system performance.
 
-[![P5](./media/P5.png)](https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384)
+<a href="https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384"><img src="./media/P5.png" alt="Image" height=300>
 
 By Lo Wing Sze (55678893)
 
 
-| [Back to Table of Contents](../table_of_contents.md) |
-| [Back to Home Page](../index.md) |
+| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
 
 
