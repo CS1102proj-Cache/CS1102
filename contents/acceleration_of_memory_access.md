@@ -34,5 +34,4 @@ Using the locality of reference, through the potential frequency of access or th
 
 ##### By Velez Hans Josef Tuble (56203178)
 
-[Back to Table of Contents](../table_of_contents.md)<br/>
-[Back to Home Page](../index.md)
+| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
