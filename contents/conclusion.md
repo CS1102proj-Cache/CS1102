@@ -12,11 +12,11 @@ The cache is an indispensable component in enhancing the system’s performance.
 
 ### C. Future Advancements and Potential Improvements in Cache Technology
 With the future advancement of the technology, it is foreseeable that more efficient and responsive cache technology will be invented. The following provides several examples of the future cache technology. <br/> <br/>
-**More intelligent cache replacement policies** <br/>
+- **More intelligent cache replacement policies** <br/>
 More intelligent replacement policies can be developed to enhance the system’s performance. One of the inadequacies of some of the current replacement systems is low adaptability. By inventing smarter cache replacement policies, it can adapt to the changing patterns and ensure a higher hit rate. It can further improve the current replacement policies. <br/> <br/>
-**Hybrid cache architecture** <br/>
+- **Hybrid cache architecture** <br/>
 Various cache designs can be incorporated to enhance the overall cache and system efficiency. The hybrid cache architecture can leverage the strength of each cache respectively to accelerate memory access. <br/> <br/>
-**Enhance cache security and reliability** <br/>
+- **Enhance cache security and reliability** <br/>
 It is of paramount importance to enhance the cache security and reliability to ensure the system’s stability and trustworthiness in using the cache. Unauthorized access to the cache and errors and failures would be minimized. <br/>
 
 
