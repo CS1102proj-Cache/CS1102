@@ -4,7 +4,7 @@ layout: contents
 # Cache Hierarchy
 
 
-### A. Overview of cache hierarchy with multiple levels (L1, L2, L3)
+### A. Overview of Cache Hierarchy with Multiple Levels (L1, L2, L3)
 
 Cache hierarchy consists of multiple levels of cache, typically referred to as L1, L2, and L3 caches. Each level of the cache hierarchy has different capacities, speeds, and proximity to the CPU.
 
@@ -14,7 +14,7 @@ The L2 cache, also known as the secondary cache. It is larger in capacity but ha
 
 The highest level in the cache hierarchy is the L3 cache, which is a shared cache serving multiple cores or processors in a multi-core system. It has a larger capacity compared to the L1 and L2 caches but generally has higher latency. The L3 cache is often integrated on the processor chip or placed on a separate chip. Its purpose is to provide a larger cache capacity and shared resource for multiple cores, improving their access to frequently used data and reducing cache conflicts.
 
-### B. Trade-offs between cache size, speed, and proximity to CPU
+### B. Trade-offs between Cache Size, speed, and Proximity to CPU
 
 Cache hierarchy involves trade-offs between cache size, speed, and proximity to the CPU.
 
@@ -24,9 +24,11 @@ Caches closer to the CPU, such as the L1 cache, have lower latency and faster ac
 
 [![P1](./media/P1.png)](https://www.researchgate.net/figure/A-classical-three-level-cache-hierarchy_fig1_362707415)
 
-### C. Retrieval process in cache hierarchy
+### C. Retrieval process in Cache Hierarchy
 
 The retrieval process in the cache hierarchy follows a hierarchical structure. When the CPU needs data or instructions, it first checks the L1 cache for the required data. This step is known as a cache hit, where the data is quickly accessed, reducing memory latency.
+
+[![P3](./media/P3.png)](https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720)
 
 If the data is not found in the L1 cache (cache miss), the CPU proceeds to check the L2 cache. The L2 cache is larger but slower than the L1 cache. If the data is present in the L2 cache (cache hit), it is fetched and provided to the CPU, reducing the need to access the main memory.
 
@@ -34,13 +36,16 @@ If the data is not found in the L2 cache (cache miss), the CPU checks the L3 cac
 
 If the data is not present in any level of the cache hierarchy (cache miss), it must be fetched from the main memory, incurring a cache miss penalty. This retrieval process aims to minimize memory access time by storing frequently accessed data at levels closer to the CPU, reducing the need to access slower main memory and improving overall system performance.
 
+[![P4](./media/P4.png)](https://www.edn.com/optimizing-for-cache-performance-part-1/)
+
 The hierarchical structure of the cache hierarchy allows for faster data retrieval by exploiting the principle of locality. Frequently accessed data is more likely to be found in the lower levels of the hierarchy, closer to the CPU, while less frequently accessed data is stored in higher-level caches or main memory. This organization helps to reduce the average memory access time and improve system performance.
 
+[![P5](./media/P5.png)](https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384)
 
 By Lo Wing Sze (55678893)
 
 
-| [Back to Table of Contents](../table_of_contents.md) | <br/>
+| [Back to Table of Contents](../table_of_contents.md) |
 | [Back to Home Page](../index.md) |
 
 
