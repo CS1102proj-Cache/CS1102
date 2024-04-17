@@ -9,6 +9,7 @@ layout: contents
 Cache memory acts as a temporary storage area between the CPU and the main memory for quick memory access. Using the concept of locality to decide which information to store in the cache, the computer system can efficiently and conveniently access that information from the cache and reduce the average memory access time.
 
 <a href="https://www.geeksforgeeks.org/cache-memory-in-computer-organization/"><img src="./media/P6.png" alt="Image" height=300>
+<br/> <br/>
 
 ### B. Benefits of storing frequently accessed data in cache
 
@@ -19,6 +20,7 @@ There are many benefits to storing frequently accessed data in the cache but the
   - As explained above, it uses the cache’s hit-to-miss ratio to evaluate performance, a higher hit rate would signify better performance and vice versa
 - Lower Resource Utilisation
   - If frequently accessed data are stored in the cache, there is no need to allocate resources to find the required information in the primary or secondary storage and can instead be used for other tasks needed.
+<br/> <br/>
 
 ### C. Exploiting locality for faster data retrieval
 
