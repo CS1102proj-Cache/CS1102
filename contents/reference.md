@@ -39,5 +39,4 @@ from [https://www.geeksforgeeks.org/cache-eviction-policies-system-design/#4-ran
 <br/> <br/> <br/>
 
 
-| [Back to Table of Contents](../table_of_contents.md) |
-| [Back to Home Page](../index.md) |
+| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
