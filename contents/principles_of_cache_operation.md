@@ -19,6 +19,8 @@ return sum;
 the variable _sum_ is accessed repeatedly during every iteration, illustrating the presence of temporal locality. On the other hand, the array elements a[i] are accessed in consecutive order, demonstrating spatial locality.
 Taking advantage of the principle, these two types of data are stored in the cache, to increase the likelihood that the CPU can have faster access to the required data. 
 
+<br/> <br/>
+
 ### B. Performance Evaluation: Cache Hits and Cache Misses
 
 If the cache contains the required data, there will be a cache hit, which is defined as a successful data retrieval from cache. In contrast, an unsuccessful data retrieval from cache is called a cache miss*. A cache miss results in a cache miss penalty, which is the additional time or delay incurred. If the required data are not stored in cache, they will be fetched from a slower memory unit like main memory. Consequently, the memory access time would increase.
@@ -39,7 +41,8 @@ Average memory access time can be calculated using the following formula:
 
 [* More information about different types of cache misses](https://www.hostinger.com/tutorials/cache-miss#What_Is_a_Cache_Miss)
 
+<br/> <br/> <br/>
 ##### By Cheng Man Ho (56612619)
-  
-| [Back to Table of Contents](../table_of_contents.md) | <br/>
-| [Back to Home Page](../index.md) |
+<br/> <br/>
+
+| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
