@@ -35,8 +35,8 @@ In a random algorithm, it works very simple. It randomly selects an object and e
 - Drawbacks
   - It would lead to suboptimal cache performance by comparing with other complicated policies. It does not take the usage pattern or the possibility of future access into account.
 <br/> 
-Every algorithm contains its advantages and disadvantages in using it, people should use it depending on the specific needs of the system.
-<br/>
+Every algorithm contains its advantages and disadvantages in using it, people should use it depending on the specific needs of the system. 
+<br/> <br/>
 ### B. Impact of cache algorithms on cache hit rates
 The cache algorithms are crucial in affecting the cache hit rates. The cache replacement policy determines which object to be evicted if a new object is inserted. The LRU and LFU would enhance the possibility of cache hits as they keep recently accessed data and frequently used data. The random replacement would result in poor hit rates due to the random nature of eviction.
 
