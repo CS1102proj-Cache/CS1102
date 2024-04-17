@@ -32,6 +32,7 @@ Locality refers to the various situations that make a system predictable and use
 
 Using the locality of reference, through the potential frequency of access or the close proximity of addresses, faster data retrievals are made possible.
 
+<br/> <br/> <br/>
 ##### By Velez Hans Josef Tuble (56203178)
-
+<br/> <br/>
 | [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
