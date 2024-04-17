@@ -33,6 +33,7 @@ from [https://www.geeksforgeeks.org/cache-eviction-policies-system-design/#4-ran
 1. Tanenbaum, A. S., & Bos, H. (2015). Modern operating systems. (4th edition / Andrew S. Tanenbaum, Herbert Bos.). Prentice Hall.
 
 1. Unlocking Efficiency: Exploring Cache Eviction Policies and Their Types (2017, November 9). YouTube: Home. Retrieved March 31, 2024,
+
 from [https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/](https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/)
 
 
