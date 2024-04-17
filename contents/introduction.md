@@ -23,4 +23,4 @@ Cache memory, or cache, is a type of high-speed memory. It is a temporary data s
 
 | [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
 
-<p style="{{ page.css_class }}">Understanding Cache</p>
+<p class="{{ page.css_class }}">Understanding Cache</p>
