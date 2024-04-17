@@ -8,7 +8,8 @@ layout: contents
 
 LRU, LFU, and random are the common cache replacement policies. 
 
-[![P2](./media/P2.png)](https://dev.to/satrobit/cache-replacement-algorithms-how-to-efficiently-manage-the-cache-storage-2ne1)
+<a href="https://dev.to/satrobit/cache-replacement-algorithms-how-to-efficiently-manage-the-cache-storage-2ne1"><img src="./media/P2.png" alt="Image" height="{{ site.image_sizes.medium }}"></a href>
+
 
 **LRU (Least Recently Used)** <br/>
 LRU represents the least recently used algorithm and it is one of the most famous algorithms. The name LRU, implies that it keeps the least recently used objects at the top and evicts objects that have not been used when the list reaches the maximum capacity.
