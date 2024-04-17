@@ -7,8 +7,12 @@ layout: contents
 ### A. Recap of the Significance of Cache in Accelerating Memory Access
 Cache plays an essential role in enhancing memory access. Cache memory is a fast and intermediate storage between the processor and the main memory. It stores the data from frequently used main memory locations. It shortens the data access time significantly for the processor, compared to retrieving data from the slower main memory. It also offers several advantages of storing frequently accessed data in a cache and using locality to increase the data retrieval speed.
 
+<br/> <br/>
+
 ### B. Emphasizing the Impact of Cache on System Performance
 The cache is an indispensable component in enhancing the system’s performance. It has high efficiency in accessing main memory and further improves program execution speed. This efficiency can highly benefit applications that require quick access to data or instructions, such as web browsers. Besides, it also improves data retrieval and leads to higher speed and responsiveness of the system performance. It can ensure the system delivers fast and efficient performance.
+
+<br/> <br/>
 
 ### C. Future Advancements and Potential Improvements in Cache Technology
 With the future advancement of the technology, it is foreseeable that more efficient and responsive cache technology will be invented. The following provides several examples of the future cache technology. <br/> 
