@@ -29,7 +29,7 @@ Locality refers to the various situations that make a system predictable and use
 - Spatial Locality
   - Refers to the nearby addresses that may be accessed in the near future due to the accessing of one address
   - Analogy:
-
+<br/>
 Using the locality of reference, through the potential frequency of access or the close proximity of addresses, faster data retrievals are made possible.
 
 <br/> <br/> <br/>
