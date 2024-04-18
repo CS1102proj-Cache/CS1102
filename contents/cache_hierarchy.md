@@ -7,13 +7,13 @@ title: Cache Hierarchy
 
 <h5><b>A. Overview of Cache Hierarchy with Multiple Levels (L1, L2, L3)</b></h5>
 <div class="bodytext">
-Cache hierarchy consists of multiple cache levels, typically known as L1, L2, and L3 caches. Each cache level has different capacity, access time, and proximity to the CPU.
+Cache hierarchy consists of multiple cache levels, typically known as L1, L2, and L3 caches. Each cache level has a different capacity, access time, and proximity to the CPU.
 
 <br/><br/>
 
 <li><b>L1 Cache</b>: The closest cache to the CPU, consisting of separate instruction and data caches. It features the smallest capacity but the least latency. It stores frequently accessed data and instructions. </li><br/>
 
-<li><b>L2 Cache</b>: The secondary cache with a larger capacity but higher latency, it acts as a mediator between the L1 cache and the main memory. It stores additional data to reduce the need for main memory access. </li><br/>
+<li><b>L2 Cache</b>: The secondary cache with a larger capacity but higher latency, acts as a mediator between the L1 cache and the main memory. It stores additional data to reduce the need for main memory access. </li><br/>
 
 <li><b>L3 Cache</b>: The highest cache level with the largest capacity and highest latency, it is typically shared among multiple cores or processors in a multi-core system. </li>
 
@@ -35,7 +35,7 @@ Larger cache sizes can accommodate more data, and thereby raises the chances of 
 
 <br/> <br/>
 
-For aches located closer to the CPU, like the L1 cache, have lower latency and faster access time. As caches move further away from the CPU, such as the L2 and L3 caches, latency increases. This trade-off between speed and proximity is influenced by factors like cache organization, technology, and chip layout. <br/>
+Aches located closer to the CPU, like the L1 cache, have lower latency and faster access time. As caches move further away from the CPU, such as the L2 and L3 caches, latency increases. This trade-off between speed and proximity is influenced by factors like cache organization, technology, and chip layout. <br/>
 
 <a href="https://www.researchgate.net/figure/A-classical-three-level-cache-hierarchy_fig1_362707415"><img src="./media/P1.png" alt="Image" height=200 width=auto></a>
 
@@ -49,9 +49,9 @@ If data is not found in the L1 cache (cache miss), the CPU will check the larger
 
 If data is not found in the L2 cache (cache miss), the CPU will check the L3 cache or the main memory. The L3 cache, if available, acts as a larger shared cache for multiple cores. If the data is found in the L3 cache (cache hit), it will be retrieved and forwarded to the CPU. <br/> <br/>
 
-If the data is absent in any cache level (cache miss), it has to be fetched from the main memory, resulting in a cache miss penalty. The cache hierarchy aims to exploit the principle of locality and minimize memory access. By keeping frequently accessed data in faster cache levels, the CPU significantly reduces data access times and enhances the system performance. <br/> <br/>
+If the data is absent in any cache level (cache miss), it has to be fetched from the main memory, resulting in a cache miss penalty. The cache hierarchy aims to exploit the principle of locality and minimize memory access. By keeping frequently accessed data in faster cache levels, the CPU significantly reduces data access times and enhances the system's performance. <br/> <br/>
 
-<a href="(https://www.edn.com/optimizing-for-cache-performance-part-1/)"><img src="./media/P4.png" alt="Image" height=300>
+<a href="(https://www.edn.com/optimizing-for-cache-performance-part-1/)"><img src="./media/P4.png" alt="Image" height=200 width=auto>
 
 <br/>
 
