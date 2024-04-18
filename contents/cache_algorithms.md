@@ -34,19 +34,21 @@ LFU means the least frequently used algorithm and it monitors how many times it 
   <ul>
   <li>It would be ineffective for applications with evolving access patterns as the items that were popular in the past may not be popular in the present or future. </li> </ul></ul><br/> <br/>
 
-**Random** <br/>
-In a random algorithm, it works very simple. It randomly selects an object and evicts it when it reaches maximum capacity. Every cache entry has the same probability of being replaced.
-- Benefits
-  - It is easy and simple to implement because it does not keep references or the history of the items.
-- Drawbacks
-  - It would lead to suboptimal cache performance by comparing with other complicated policies. It does not take the usage pattern or the possibility of future access into account.
-<br/> 
+<b>Random</b> <br/>
+In a random algorithm, it works very simple. It randomly selects an object and evicts it when it reaches maximum capacity. Every cache entry has the same probability of being replaced. <br/>
+<ul><li>Benefits </li>
+  <ul>
+  <li>It is easy and simple to implement because it does not keep references or the history of the items. </li> </ul> </ul><br/>
+<ul><li>Drawbacks </li>
+  <ul>
+  <li>It would lead to suboptimal cache performance by comparing with other complicated policies. It does not take the usage pattern or the possibility of future access into account. </li> </ul></ul><br/> <br/>
+
 Every algorithm contains its advantages and disadvantages in using it, people should use it depending on the specific needs of the system. <br/> <br/>
 
-##### B. Impact of cache algorithms on cache hit rates
+<h5><b>B. Impact of cache algorithms on cache hit rates</b></h5>
 The cache algorithms are crucial in affecting the cache hit rates. The cache replacement policy determines which object to be evicted if a new object is inserted. The LRU and LFU would enhance the possibility of cache hits as they keep recently accessed data and frequently used data. The random replacement would result in poor hit rates due to the random nature of eviction.
 
 <br/> <br/> <br/>
-###### By Ng Wing Hei (56612889)
+<h6>By Ng Wing Hei (56612889)</h6>
 <br/> <br/>
 [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
