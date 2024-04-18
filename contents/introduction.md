@@ -2,8 +2,6 @@
 layout: contents
 ---
 
-
-<html>
 <head>
   <title>Introduction</title>
 </head>
