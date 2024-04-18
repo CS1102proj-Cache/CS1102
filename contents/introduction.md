@@ -1,7 +1,13 @@
 ---
 layout: contents
-title: Introduction
 ---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Introduction</title>
+</head>
+<body>
 
 <h4><b>Introduction</b></h4>
 <h5><b>A. Introducing Caches</b></h5>
@@ -22,4 +28,6 @@ title: Introduction
 <h6>By Cheng Man Ho (56612619)</h6>
 <br/> <br/>
 
-<div class="middle"><a href="https://www.geeksforgeeks.org/cache-memory-in-computer-organization/">Next: Understanding Cache</a></div>
+<div class="middle"><a href="https://cs1102proj-cache.github.io/CS1102/contents/understanding_cache.html">Next: Understanding Cache</a></div>
+</body>
+</html>
