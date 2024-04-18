@@ -29,4 +29,7 @@ It is of paramount importance to enhance the cache security and reliability to e
 <br/> <br/> <br/>
 <h6>By Ng Wing Hei (56612889)</h6>
 <br/> <br/>
-[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
+<div class="middle">
+<a href="https://cs1102proj-cache.github.io/CS1102/contents/acceleration_of_memory_access.html">Previous: Acceleration of Memory Access</a> |
+<a href="https://cs1102proj-cache.github.io/CS1102/contents/reference.html">Next: Reference</a>
+<br/> 
