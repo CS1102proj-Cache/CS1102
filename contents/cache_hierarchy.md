@@ -29,6 +29,7 @@ Larger cache sizes can accommodate more data, increasing the chances of cache hi
 - **Direct-mapped Cache**: Each memory block maps to a specific cache location, resulting in simple hardware but potential conflicts.
 
 <br/>
+
 - **Fully Associative Cache**: Any memory block can be stored in any cache location, reducing conflicts but increasing hardware complexity and access time.
 
 <br/>
