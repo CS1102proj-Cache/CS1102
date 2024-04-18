@@ -3,7 +3,8 @@ layout: default
 ---
 
 Welcome to this website!
-This project is presented by
+This project is presented by:
+
 | Name | SID |
 |:---|:---|
 | Ng Wing Hei | 56612889 |
