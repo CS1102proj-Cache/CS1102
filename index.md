@@ -12,9 +12,11 @@ This project is presented by
 | Velez Hans Josef Tuble | 56203178 |
 
 <br/>
+Our project topic is **"How Cache Accelerates the Input-Output (I/O) of the Memory"**
+Click [here](./table_of_contents.md) for [Table of Contents](./table_of_contents.md).
 
 video
-Our project topic is **"How Cache Accelerates the Input-Output (I/O) of the Memory"**
+
  
 
 
