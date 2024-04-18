@@ -2,6 +2,18 @@
 layout: default
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function showPopup() {
+      alert("Welcome to our website!");
+    }
+    window.onload = showPopup;
+  </script>
+</head>
+<body>
+
 Welcome to this website!
 This project is presented by:
 
@@ -27,3 +39,5 @@ video
 
 method used
 
+</body>
+</html>
