@@ -44,19 +44,17 @@ For caches located closer to the CPU, such as the L1 cache, have lower latency a
 
 ### C. Retrieval process in Cache Hierarchy
 
-The retrieval process in the cache hierarchy follows a hierarchical structure. When the CPU needs data or instructions, it first checks the L1 cache for the required data. This step is known as a cache hit, where the data is quickly accessed, reducing memory latency.
-
 <a href="https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720"><img src="./media/P3.png" alt="Image" height=300>
 
-If the data is not found in the L1 cache (cache miss), the CPU proceeds to check the L2 cache. The L2 cache is larger but slower than the L1 cache. If the data is present in the L2 cache (cache hit), it is fetched and provided to the CPU, reducing the need to access the main memory.
+If data is not found in the L1 cache (cache miss), the CPU proceeds to check the L2 cache, which is larger but slower than the L1 cache. If the data is present in the L2 cache (cache hit), it is fetched and provided to the CPU, reducing the need to access the main memory.
 
-If the data is not found in the L2 cache (cache miss), the CPU checks the L3 cache or main memory. The L3 cache, if available, serves as a larger shared cache for multiple cores. If the data is found in the L3 cache (cache hit), it is retrieved and forwarded to the CPU.
+If data is not found in the L2 cache (cache miss), the CPU then checks the L3 cache or the main memory. The L3 cache, if available, acts as a larger shared cache for multiple cores. If the data is found in the L3 cache (cache hit), it is retrieved and forwarded to the CPU.
 
-If the data is not present in any level of the cache hierarchy (cache miss), it must be fetched from the main memory, incurring a cache miss penalty. This retrieval process aims to minimize memory access time by storing frequently accessed data at levels closer to the CPU, reducing the need to access slower main memory and improving overall system performance.
+When the data is not present in any level of the cache hierarchy (cache miss), it must be fetched from the main memory, leading to a cache miss penalty. The cache hierarchy is designed to minimize memory access time by storing frequently accessed data closer to the CPU, reducing the need for accessing the slower main memory and improving overall system performance.
 
 <a href="(https://www.edn.com/optimizing-for-cache-performance-part-1/)"><img src="./media/P4.png" alt="Image" height=300>
 
-The hierarchical structure of the cache hierarchy allows for faster data retrieval by exploiting the principle of locality. Frequently accessed data is more likely to be found in the lower levels of the hierarchy, closer to the CPU, while less frequently accessed data is stored in higher-level caches or main memory. This organization helps to reduce the average memory access time and improve system performance.
+The cache hierarchy is designed in this way to exploit the principle of locality, which states that programs tend to access data and instructions that are spatially or temporally close to each other. By storing frequently accessed data in the smaller and faster cache levels, the CPU can significantly reduce the time required to access data and improve overall system performance.
 
 <a href="https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384"><img src="./media/P5.png" alt="Image" height=300>
 
