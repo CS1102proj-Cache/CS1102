@@ -2,16 +2,16 @@
 layout: contents
 ---
 
-# Acceleration of Memory Access
+#### Acceleration of Memory Access
 
-### A. Explanation of how cache reduces average memory access time
+##### A. Explanation of how cache reduces average memory access time
 
 Cache memory acts as a temporary storage area between the CPU and the main memory for quick memory access. Using the concept of locality to decide which information to store in the cache, the computer system can efficiently and conveniently access that information from the cache and reduce the average memory access time.
 
 <a href="https://www.geeksforgeeks.org/cache-memory-in-computer-organization/"><img src="./media/P6.png" alt="Image" height=300>
 <br/> <br/>
 
-### B. Benefits of storing frequently accessed data in cache
+##### B. Benefits of storing frequently accessed data in cache
 
 There are many benefits to storing frequently accessed data in the cache but the main ones would include:
 - Improved Performance
@@ -35,6 +35,6 @@ Locality refers to the various situations that make a system predictable and use
 Using the locality of reference, through the potential frequency of access or the close proximity of addresses, faster data retrievals are made possible.
 
 <br/> <br/> <br/>
-##### By Velez Hans Josef Tuble (56203178)
+###### By Velez Hans Josef Tuble (56203178)
 <br/> <br/>
-| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
+[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
