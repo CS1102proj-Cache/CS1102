@@ -3,7 +3,6 @@ layout: contents
 title: Principles of Cache Operation
 ---
 
-<body>
 <h4><b>Principles of Cache Operation</b></h4>
 
 <h5><b>A. Locality: Temporal and spatial locality</b></h5>
@@ -57,6 +56,3 @@ Average memory access time can be calculated using the following formula: <br/>
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/understanding_cache.html">Previous: Understanding Cache</a> |
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_hierarchy.html">Next: Cache Hierarchy</a>
 <br/> 
-</body>
-
-
