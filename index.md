@@ -1,22 +1,52 @@
 ---
 layout: default
 ---
+<head>
+<script>
+    function greetUser() {
+      var name = prompt("Please enter your name:");
+      if (name) {
+        var greeting = "Hello, " + name + "! Welcome to our website.";
+        document.getElementById("greeting").textContent = greeting;
+      }
+    }
+</script>
+</head>
+<body>
+ <div class="bodytext">
+This project is presented by: <br/>
+<table>
+    <thead>
+      <tr>
+        <the><b>Name</b></th>
+        <th><b>SID<b></b></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ng Wing Hei</td>
+        <td>56612889</td>
+      </tr>
+      <tr>
+        <td>Cheng Man Ho</td>
+        <td>56612619</td>
+      </tr>
+      <tr>
+        <td>Lo Wing Sze</td>
+        <td>55678893</td>
+      </tr>
+      <tr>
+        <td>Velez Hans Josef Tuble</td>
+        <td>56203178</td>
+      </tr>
+    </tbody>
+  </table>
 
-Welcome to this website!
-This project is presented by:
+<br/><br/>
 
-| Name | SID |
-|:---|:---|
-| Ng Wing Hei | 56612889 |
-| Cheng Man Ho | 56612619 |
-| Lo Wing Sze | 55678893 |
-| Velez Hans Josef Tuble | 56203178 |
+Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Memory"</b>
 
-<br/>
-
-Our project topic is **"How Cache Accelerates the Input-Output (I/O) of the Memory"**
-
-Click [here](./table_of_contents.md) for [Table of Contents](./table_of_contents.md).
+<a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
 
 video
 
