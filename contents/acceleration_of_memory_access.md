@@ -1,5 +1,6 @@
 ---
 layout: contents
+title: Acceleration of Memory Access
 ---
 
 #### Acceleration of Memory Access
