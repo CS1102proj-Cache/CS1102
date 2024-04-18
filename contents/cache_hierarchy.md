@@ -6,19 +6,19 @@ layout: contents
 
 ### A. Overview of Cache Hierarchy with Multiple Levels (L1, L2, L3)
 
-Cache hierarchy consists of multiple levels of cache, typically referred to as L1, L2, and L3 caches. Each level of the cache hierarchy has different capacities, speeds, and proximity to the CPU.
+Cache hierarchy consists of multiple levels of cache, typically referred to as L1, L2, and L3 caches. Each level of the cache hierarchy has different capacities, speeds, and proximity to the CPU. 
 
 <br/>
 
-- **L1 Cache**: The closest cache to the CPU, consisting of separate instruction and data caches. It has the smallest capacity but the lowest latency. It stores frequently accessed data and instructions.
+- **L1 Cache**: The closest cache to the CPU, consisting of separate instruction and data caches. It has the smallest capacity but the lowest latency. It stores frequently accessed data and instructions. 
 
 <br/>
 
-- **L2 Cache**: The secondary cache that is larger in capacity but has higher latency compared to the L1 cache. It acts as a mediator between the L1 cache and the main memory, storing additional data and instructions to reduce the frequency of accessing the main memory.
+- **L2 Cache**: The secondary cache that is larger in capacity but has higher latency compared to the L1 cache. It acts as a mediator between the L1 cache and the main memory, storing additional data and instructions to reduce the frequency of accessing the main memory. 
 
 <br/>
 
-- **L3 Cache**: The highest level in the cache hierarchy, typically shared among multiple cores or processors in a multi-core system. It has a larger capacity compared to the L1 and L2 caches, while having a generally higher latency than L1 and L2. The L3 cache provides a larger cache capacity and a shared resource for multiple cores, improving their access to frequently used data and reducing cache conflicts.
+- **L3 Cache**: The highest level in the cache hierarchy, typically shared among multiple cores or processors in a multi-core system. It has a larger capacity compared to the L1 and L2 caches, while having a generally higher latency than L1 and L2. The L3 cache provides a larger cache capacity and a shared resource for multiple cores, improving their access to frequently used data and reducing cache conflicts. 
 
 <br/> <br/>
 
