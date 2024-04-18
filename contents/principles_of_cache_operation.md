@@ -6,7 +6,14 @@ layout: contents
 
 ##### A. Locality: Temporal and spatial locality
 
-Caches’ operation is based on the principle of locality of reference, which describes that programs tend to access the same set of data or the data with nearby addresses. There are two types of locality, temporal and spatial. Temporal locality refers to the tendency of accessing the same data again in the near future, while spatial locality refers to the tendency of accessing  the data with addresses near to the current data in the near future. Locality is common in loop instructions as some variables are accessed again and again. For example, in the following loop,
+Caches’ operation is based on the principle of locality of reference, which describes that programs tend to access the same set of data or the data with nearby addresses. There are two types of locality, temporal and spatial.
+
+- **Temporal locality**: the tendency of accessing the same data again in the near future, 
+- **Spatial locality**: the tendency of accessing the data with addresses near to the current data in the near future
+
+<br/>
+
+Locality is common in loop instructions as some variables are accessed again and again. For example, in the following loop,
 
 ```js
 sum = 0;
