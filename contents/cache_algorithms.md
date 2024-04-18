@@ -18,7 +18,7 @@ LRU represents the least recently used algorithm and it is one of the most famou
 <ul><li>Benefits </li><br/>
   <ul>
   <li>It is fast and efficient in the view of cache management. The high-efficiency benefits for the applications that need quick access to used data. </li> <br/>
-  <li>LRU can work well with data subject to locality concerns, showing that it is effective for applications where recently accessed items are likely to be accessed again soon. This attribute makes it suitable for applications with temporal locality. </li> </ul><br/>
+  <li>LRU can work well with data subject to locality concerns, showing that it is effective for applications where recently accessed items are likely to be accessed again soon. This attribute makes it suitable for applications with temporal locality. </li> </ul> </ul><br/>
 <ul><li>Drawbacks </li><br/>
   <ul>
   <li>It would perform poorly when element files are accessed occasionally but consistently while other elements are accessed very frequently for a short duration and never accessed again. It would lead to inefficiency of cache utilization. </li> <br/>
