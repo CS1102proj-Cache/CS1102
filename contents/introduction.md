@@ -3,8 +3,6 @@ layout: contents
 title: Introduction
 ---
 
-<body>
-
 <h4><b>Introduction</b></h4>
 <h5><b>A. Introducing Caches</b></h5>
   <div class="body">
@@ -25,4 +23,3 @@ title: Introduction
 <br/> <br/>
 
 <div class="middle"><a href="https://cs1102proj-cache.github.io/CS1102/contents/understanding_cache.html">Next: Understanding Cache</a></div><br/>
-</body>
