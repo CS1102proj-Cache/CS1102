@@ -22,14 +22,14 @@
       .middle {text-align: center !important;}
     </style>
     <script>
-    function greetUser() {
-      var name = prompt("Please enter your name:");
-      if (name) {
-        var greeting = "Hello, " + name + "! Welcome to our website.";
-        document.getElementById("greeting").textContent = greeting;
+    window.addEventListener('DOMContentLoaded', function() {
+      var currentPage = window.location.pathname;
+      if (currentPage === '/index.html') {
+        var userInput = prompt('Please enter a your name:');
+        console.log('Hello! Welcome ', userInput,' to our website!');
       }
-    }
-    </script>
+    });
+  </script>
 </head>
     
   </head>
