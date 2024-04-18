@@ -1,10 +1,6 @@
 ---
 layout: contents
-css_class: right-align
 ---
-<head>
-  <link rel="stylesheet" href="../_layouts/styles.css">
-</head>
 
 # Introduction
 ### A. Introducing Caches
