@@ -3,6 +3,7 @@ layout: contents
 title: Principles of Cache Operation
 ---
 
+<body>
 <h4><b>Principles of Cache Operation</b></h4>
 
 <h5><b>A. Locality: Temporal and spatial locality</b></h5>
