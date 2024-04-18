@@ -8,11 +8,17 @@ layout: contents
 
 Cache hierarchy consists of multiple levels of cache, typically referred to as L1, L2, and L3 caches. Each level of the cache hierarchy has different capacities, speeds, and proximity to the CPU.
 
-The L1 cache, also known as the primary cache, is the closest cache to the CPU. It has the smallest capacity but the lowest latency (access time). The L1 cache stores frequently accessed data and instructions required by the CPU. For example, in the Intel x86 architecture, the L1 cache is split into separate instruction and data caches.
+<br/>
 
-The L2 cache, also known as the secondary cache. It is larger in capacity but has higher latency compared to the L1 cache. The L2 cache acts as a mediator between the L1 cache and the main memory. It stores additional data and instructions that are not present in the L1 cache, thereby reducing the frequency of accessing the main memory and improving overall performance.
+- **L1 Cache**: The closest cache to the CPU, consisting of separate instruction and data caches. It has the smallest capacity but the lowest latency. It stores frequently accessed data and instructions.
 
-The highest level in the cache hierarchy is the L3 cache, which is a shared cache serving multiple cores or processors in a multi-core system. It has a larger capacity compared to the L1 and L2 caches but generally has higher latency. The L3 cache is often integrated on the processor chip or placed on a separate chip. Its purpose is to provide a larger cache capacity and shared resource for multiple cores, improving their access to frequently used data and reducing cache conflicts.
+<br/>
+
+- **L2 Cache**: The secondary cache that is larger in capacity but has higher latency compared to the L1 cache. It acts as a mediator between the L1 cache and the main memory, storing additional data and instructions to reduce the frequency of accessing the main memory.
+
+<br/>
+
+- **L3 Cache**: The highest level in the cache hierarchy, typically shared among multiple cores or processors in a multi-core system. It has a larger capacity compared to the L1 and L2 caches, while having a generally higher latency than L1 and L2. The L3 cache provides a larger cache capacity and a shared resource for multiple cores, improving their access to frequently used data and reducing cache conflicts.
 
 <br/> <br/>
 
@@ -20,9 +26,20 @@ The highest level in the cache hierarchy is the L3 cache, which is a shared cach
 
 Cache hierarchy involves trade-offs between cache size, speed, and proximity to the CPU.
 
-Larger cache sizes can accommodate more data, increasing the likelihood of cache hits and reducing cache misses. However, larger caches also require more transistors and incur higher costs. Designers must strike a balance between cache size, cost, and the expected benefits in terms of improved performance. Different cache organizations, such as direct-mapped, fully associative, or set-associative, have different trade-offs between capacity and access time.
+Larger cache sizes can accommodate more data, increasing the chances of cache hits and reducing cache misses. However, larger caches also require more transistors and leads to higher costs. Designers need to balance between cache size, cost, and the expected benefits in terms of improved performance. Different cache organizations, such as direct-mapped, fully associative, or set-associative, have different trade-offs between capacity and access time.
 
-Caches closer to the CPU, such as the L1 cache, have lower latency and faster access times. As caches move further away from the CPU, such as the L2 and L3 caches, the latency increases. This trade-off between speed and proximity is influenced by factors like cache organization, technology, and chip layout.
+<br/>
+
+- **Direct-mapped Cache**: Each memory block maps to a specific cache location, resulting in simple hardware but potential conflicts.
+
+<br/>
+- **Fully Associative Cache**: Any memory block can be stored in any cache location, reducing conflicts but increasing hardware complexity and access time.
+
+<br/>
+
+- **Set Associative Cache**: The cache is divided into multiple sets, allowing each memory block to be mapped to any location within its set. It strikes a balance between direct-mapped and fully associative caches, reducing conflicts while maintaining lower access time compared to fully associative caches.
+
+For caches located closer to the CPU, such as the L1 cache, have lower latency and faster access times. As caches move further away from the CPU, such as the L2 and L3 caches, the latency increases. This trade-off between speed and proximity is influenced by factors like cache organization, technology, and chip layout.
 
 <a href="https://www.researchgate.net/figure/A-classical-three-level-cache-hierarchy_fig1_362707415"><img src="./media/P1.png" alt="Image" height=300>
 
