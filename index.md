@@ -8,7 +8,7 @@ layout: default
 <table>
     <thead>
       <tr>
-        <the><b>Name</b></th>
+        <th><b>Name</b></th>
         <th><b>SID<b></b></th>
       </tr>
     </thead>
@@ -30,7 +30,7 @@ layout: default
         <td>56203178</td>
       </tr>
     </tbody>
-  </table>
+ </table>
 
 <br/><br/>
 
