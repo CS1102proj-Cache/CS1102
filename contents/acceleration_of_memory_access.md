@@ -22,7 +22,7 @@ There are many benefits to storing frequently accessed data in the cache but the
   - If frequently accessed data are stored in the cache, there is no need to allocate resources to find the required information in the primary or secondary storage and can instead be used for other tasks needed.
 <br/> <br/>
 
-### C. Exploiting locality for faster data retrieval
+##### C. Exploiting locality for faster data retrieval
 
 Locality refers to the various situations that make a system predictable and uses it to improve a computer’s performance. The situations are then used to create patterns of memory access to be relied on by the cache memory. The two types of locality are:
 - Temporal Locality
