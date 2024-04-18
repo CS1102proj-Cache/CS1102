@@ -24,5 +24,5 @@ title: Introduction
 <h6>By Cheng Man Ho (56612619)</h6>
 <br/> <br/>
 
-<div class="middle"><a href="https://cs1102proj-cache.github.io/CS1102/contents/understanding_cache.html">Next: Understanding Cache</a></div>
+<div class="middle"><a href="https://cs1102proj-cache.github.io/CS1102/contents/understanding_cache.html">Next: Understanding Cache</a></div><br/>
 </body>
