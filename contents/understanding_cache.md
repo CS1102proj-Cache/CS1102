@@ -3,6 +3,7 @@ layout: contents
 title: Understanding Caches
 ---
 
+<body>
 <h4><b>Understanding Caches</b></h4>
 
 <h5><b>A. Comparison of Main Memory and Caches</b></h5>
