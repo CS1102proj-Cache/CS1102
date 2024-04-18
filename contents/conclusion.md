@@ -23,11 +23,11 @@ The cache is an indispensable component in enhancing the system’s performance.
 With the future advancement of technology, it is foreseeable that more efficient cache technology will be invented. The following provides several examples of future cache technology. <br/>  <br/> 
 
 <li><b>More intelligent cache replacement policies</b><br/>
-More intelligent replacement policies can be developed to enhance the system’s performance. One of the inadequacies of some of the current replacement systems is low adaptability. By inventing smarter cache replacement policies, it can adapt to the changing patterns and ensure a higher hit rate. It can further improve the current replacement policies. </li><br/>
+One of the ways to enhance system performance is to develop more intelligent replacement policies. A weakness of some of the current replacement systems is the low adaptability. With, smarter cache replacement policies, it can adapt to the evolving patterns and cause a higher hit rate. It can show improvement in the current replacement policies. </li><br/>
 <li><b>Hybrid cache architecture</b><br/>
-Various cache designs can be incorporated to enhance the overall cache and system efficiency. The hybrid cache architecture can leverage the strength of each cache respectively to accelerate memory access. </li><br/>
-<li><b>Enhance cache security and reliability. </b><br/>
-It is of paramount importance to enhance the cache security and reliability to ensure the system’s stability and trustworthiness in using the cache. Unauthorized access to the cache and errors and failures would be minimized. </li>
+Different cache designs can be incorporated together to accelerate both cache and system efficiency. The hybrid cache architecture would be able to leverage the strength of each cache respectively to enhance memory access. </li><br/>
+<li><b>Higher reliability and security of cache</b><br/>
+The security and reliability can be further improved. Thus, it can prevent unauthorized parties from getting access to the data and ensure there are fewer errors and failures. Users’ information can be protected and is not easily exposed to others. </li>
 </div>
 <br/> <br/> <br/>
 <h6>By Ng Wing Hei (56612889)</h6>
