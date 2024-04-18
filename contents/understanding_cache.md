@@ -26,7 +26,7 @@ With a smaller capacity, caches can only hold a small amount of data. It enables
       <tr>
         <td><b>Memory type</b></td>
         <td>DRAM</td>
-        <td>SRAM/td>
+        <td>SRAM</td>
       </tr>
       <tr>
         <td><b>Capacity</b></td>
