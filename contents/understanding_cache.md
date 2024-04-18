@@ -1,10 +1,11 @@
 ---
 layout: contents
+title: Understanding Caches
 ---
 
-# Understanding Caches
+#### Understanding Caches
 
-### A. Comparison of Main memory and Caches
+##### A. Comparison of Main memory and Caches
 The major difference between caches’ and main meremory’s performance is access speed. As the primary storage unit, main memory is typically built using dynamic random access memory (DRAM), which requires continual refreshing*. Main memory provides a large storage capacity at low cost. Modern main memory is usually built in gigabytes (GB). Generally, main memory is located outside the processor.
 
 On the other hand, caches are built using static random access memory (SRAM), which does not require refreshing*. Caches have a smaller capacity with a higher cost, compared with main memory. It is usually built in megabytes (MB). It is closer to the CPU, and can be placed inside or outside the processor.
@@ -21,12 +22,12 @@ With a smaller capacity, caches can only hold a small amount of data. It enables
 
 <br/> <br/>
 
-### B. Role of Caches in Reducing Memory Access Time
+##### B. Role of Caches in Reducing Memory Access Time
 The cache is crucial in complementing the main memory. The features of fast access time and small capacity make cache suitable for storing frequently accessed data. The CPU can store and retrieve those data more quickly from the cache, reducing the performance bottlenecks in the computer system. As a result, the CPU can operate in a more efficient way and improve system performance.
 ```
 CPU ←→ Cache ←→ Main memory
 ```
 <br/> <br/> <br/>
-##### By Cheng Man Ho (56612619)
+###### By Cheng Man Ho (56612619)
 <br/> <br/>
-| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
+[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
