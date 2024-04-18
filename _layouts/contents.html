@@ -12,19 +12,19 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
     <style>
-      h1 {font-size: 30px !important;}
-      h2 {font-size: 24px !important;}
-      h3 {font-size: 12px !important;}
+      h2 {font-size: 30px !important;}
+      h4 {font-size: 24px !important;}
+      h6 {font-size: 12px !important;}
     </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1>How Cache Accelerates the Input-Output (I/O) of the Memory</h1>
-      <h2 class="project-author">{{ page.author | default: site.author | default: site.github.project_author }}</h2>
-      <h2 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
-      <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h3>
+      <h2>How Cache Accelerates the Input-Output (I/O) of the Memory</h2>
+      <h4 class="project-author">{{ page.author | default: site.author | default: site.github.project_author }}</h4>
+      <h4 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h4>
+      <h6 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h6>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
