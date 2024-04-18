@@ -51,4 +51,7 @@ The cache algorithms are crucial in affecting the cache hit rates. The cache rep
 <br/> <br/> <br/>
 <h6>By Ng Wing Hei (56612889)</h6>
 <br/> <br/>
-[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
+<div class="middle">
+<a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_hierarchy.html">Previous: Cache Hierarchy</a> |
+<a href="https://cs1102proj-cache.github.io/CS1102/contents/acceleration_of_memory_access.html">Next: Acceleration of Memory Access</a>
+<br/> 
