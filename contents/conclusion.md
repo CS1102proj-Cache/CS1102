@@ -27,4 +27,4 @@ It is of paramount importance to enhance the cache security and reliability to e
 <br/> <br/> <br/>
 ###### By Ng Wing Hei (56612889)
 <br/> <br/>
-| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
+[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
