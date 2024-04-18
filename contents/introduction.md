@@ -22,4 +22,4 @@ title: Introduction
 <h6>By Cheng Man Ho (56612619)</h6>
 <br/> <br/>
 
-<div class="middle"> [Next: Understanding Cache](./understanding_cache.md) </div>
+<div class="middle"><a href="https://www.geeksforgeeks.org/cache-memory-in-computer-organization/">Next: Understanding Cache</a></div>
