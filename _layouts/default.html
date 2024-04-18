@@ -21,6 +21,15 @@
       .bodytext {font-size: 16px !important;}
       .middle {text-align: center !important;}
     </style>
+    <script>
+    function greetUser() {
+      var name = prompt("Please enter your name:");
+      if (name) {
+        var greeting = "Hello, " + name + "! Welcome to our website.";
+        document.getElementById("greeting").textContent = greeting;
+      }
+    }
+    </script>
 </head>
     
   </head>
