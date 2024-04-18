@@ -12,12 +12,12 @@ The cache is crucial in complementing the main memory. The features of fast acce
 <br/> <br/>
 
 There are many benefits to storing frequently accessed data in the cache but the main ones would include: <br/><br/>
-- Improved Performance <br/>
-  - Due to the nature of caches having reduced latency than other forms of memory, quicker responses improve the efficiency of data retrieval. <br/>
-- Helps evaluate computer performance <br/>
-  - As explained above, it uses the cache’s hit-to-miss ratio to evaluate performance, a higher hit rate would signify better performance and vice versa <br/>
-- Lower Resource Utilisation <br/>
-  - If frequently accessed data are stored in the cache, there is no need to allocate resources to find the required information in the primary or secondary storage and can instead be used for other tasks needed.
+<ul><li>Improved Performance </li>
+  <ul><li>Due to the nature of caches having reduced latency than other forms of memory, quicker responses improve the efficiency of data retrieval. </li></ul></ul>
+<ul><li>Helps evaluate computer performance </li>
+  <ul><li>As explained above, it uses the cache’s hit-to-miss ratio to evaluate performance, a higher hit rate would signify better performance and vice versa </li></ul></ul>
+<ul><li>Lower Resource Utilisation </li>
+  <ul><li>If frequently accessed data are stored in the cache, there is no need to allocate resources to find the required information in the primary or secondary storage, and can instead be used for other tasks needed. </li></ul></ul>
 <br/> <br/>
 
 <br/> <br/> <br/>
