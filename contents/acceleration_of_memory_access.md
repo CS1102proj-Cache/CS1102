@@ -8,7 +8,7 @@ title: Acceleration of Memory Access
 <div class="bodytext">
 The cache is crucial in complementing the main memory. The features of fast access time and small capacity make the cache suitable for storing frequently accessed data. The CPU can store and retrieve those data more quickly from the cache, reducing the performance bottlenecks in the computer system. As a result, the CPU can operate more efficiently and improve system performance. <br/>
 
-<a href="https://www.geeksforgeeks.org/cache-memory-in-computer-organization/"><img src="./media/P6.png" alt="Image" height=200 width=auto>
+<a href="https://www.geeksforgeeks.org/cache-memory-in-computer-organization/"><img src="./media/P6.png" alt="Image" height=200 width=auto></a>
 <br/> <br/>
 
 There are many benefits to storing frequently accessed data in the cache but the main ones would include: <br/><br/>
