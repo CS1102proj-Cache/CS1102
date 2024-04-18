@@ -19,5 +19,5 @@ Cache memory, or cache, is a type of high-speed memory. It is a temporary data s
 ###### By Cheng Man Ho (56612619)
 <br/> <br/>
 
-<middle> [Next: Understanding Cache](./understanding_cache.md) <br/> 
-[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) </middle>
+[Next: Understanding Cache](./understanding_cache.md) <br/> 
+[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
