@@ -26,11 +26,13 @@ LRU represents the least recently used algorithm and it is one of the most famou
 
 <b>LFU (Least Frequently Used)</b> <br/>
 LFU means the least frequently used algorithm and it monitors how many times it was accessed. Each object is associated with a counter which counts how many times it was accessed. If the list reaches the maximum capacity, objects with the lowest counters are evicted.  <br/>
-- Benefits  <br/>
-  - Cache pollution can be avoided by evicting items that are accessed once or rarely, regardless of their recency.  <br/>
-  - It can keep items that are accessed more often than others and can manage cyclic access patterns better than LRU.  <br/>
-- Drawbacks  <br/>
-  - It would be ineffective for applications with evolving access patterns as the items that were popular in the past may not be popular in the present or future. <br/>  <br/>
+<ul><li>Benefits </li>
+  <ul>
+  <li>Cache pollution can be avoided by evicting items that are accessed once or rarely, regardless of their recency.  </li> 
+  <li>It can keep items that are accessed more often than others and can manage cyclic access patterns better than LRU. </li> </ul> </ul><br/>
+<ul><li>Drawbacks </li>
+  <ul>
+  <li>It would be ineffective for applications with evolving access patterns as the items that were popular in the past may not be popular in the present or future. </li> </ul></ul><br/> <br/>
 
 **Random** <br/>
 In a random algorithm, it works very simple. It randomly selects an object and evicts it when it reaches maximum capacity. Every cache entry has the same probability of being replaced.
