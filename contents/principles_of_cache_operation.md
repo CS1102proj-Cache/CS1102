@@ -25,7 +25,7 @@ return sum;
 ```
 
 <br/>
-the variable _sum_ is accessed repeatedly during every iteration, illustrating the presence of temporal locality. On the other hand, the array elements a[i] are accessed in consecutive order, demonstrating spatial locality.
+the variable <i>sum</i> is accessed repeatedly during every iteration, illustrating the presence of temporal locality. On the other hand, the array elements a[i] are accessed in consecutive order, demonstrating spatial locality.
 Taking advantage of the principle, these two types of data are stored in the cache, to increase the likelihood that the CPU can have faster access to the required data. 
 
 <br/> <br/>
