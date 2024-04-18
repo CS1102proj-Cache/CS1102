@@ -1,10 +1,11 @@
 ---
 layout: contents
+title: Cache Hierarchy
 ---
-# Cache Hierarchy
+#### Cache Hierarchy
 
 
-### A. Overview of Cache Hierarchy with Multiple Levels (L1, L2, L3)
+##### A. Overview of Cache Hierarchy with Multiple Levels (L1, L2, L3)
 
 Cache hierarchy consists of multiple levels of cache, typically referred to as L1, L2, and L3 caches. Each level of the cache hierarchy has different capacities, speeds, and proximity to the CPU. 
 
@@ -18,7 +19,7 @@ Cache hierarchy consists of multiple levels of cache, typically referred to as L
 
 <br/> <br/>
 
-### B. Trade-offs between Cache Size, speed, and Proximity to CPU
+##### B. Trade-offs between Cache Size, speed, and Proximity to CPU
 
 Cache hierarchy involves trade-offs between cache size, speed, and proximity to the CPU.
 
@@ -42,7 +43,7 @@ For caches located closer to the CPU, such as the L1 cache, have lower latency a
 
 <br/> <br/>
 
-### C. Retrieval process in Cache Hierarchy
+##### C. Retrieval process in Cache Hierarchy
 
 <a href="https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720"><img src="./media/P3.png" alt="Image" height=300>
 
@@ -61,9 +62,7 @@ The cache hierarchy is designed in this way to exploit the principle of locality
 <a href="https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384"><img src="./media/P5.png" alt="Image" height=300>
 
 <br/> <br/> <br/>
-##### By Lo Wing Sze (55678893)
+###### By Lo Wing Sze (55678893)
 <br/> <br/>
 
-| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
-
-
+[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
