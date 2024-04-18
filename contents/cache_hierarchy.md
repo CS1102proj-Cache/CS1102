@@ -43,7 +43,7 @@ Aches located closer to the CPU, like the L1 cache, have lower latency and faste
 </div>
 <h5><b>C. Retrieval process in Cache Hierarchy</b></h5>
 <div class="bodytext">
-<a href="https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720"><img src="./media/P3.png" alt="Image" height=200 width=auto></a> <br/>
+<a href="https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720"><img src="./media/P3.png" alt="Image" height=300 width=auto></a> <br/>
 
 If data is not found in the L1 cache (cache miss), the CPU will check the larger but slower L2 cache. If the data is found in the L2 cache (cache hit), it will be fetched and sent to the CPU. This eliminates the need for main memory access. <br/> <br/>
 
