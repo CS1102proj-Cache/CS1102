@@ -26,4 +26,3 @@ title: Introduction
 
 <div class="middle"><a href="https://cs1102proj-cache.github.io/CS1102/contents/understanding_cache.html">Next: Understanding Cache</a></div>
 </body>
-</html>
