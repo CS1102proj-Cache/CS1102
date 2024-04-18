@@ -3,7 +3,6 @@ layout: contents
 title: Understanding Caches
 ---
 
-<body>
 <h4><b>Understanding Caches</b></h4>
 
 <h5><b>A. Comparison of Main Memory and Caches</b></h5>
@@ -51,4 +50,3 @@ With a smaller capacity, caches can only hold a small amount of data. It enables
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/introduction.html">Previous: Introduction</a> | 
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/principles_of_cache_operation.html">Next: Principles of Cache Operation</a><br/>
-</body>
