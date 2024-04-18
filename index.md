@@ -9,7 +9,7 @@ layout: default
     <thead>
       <tr>
         <th><b>Name</b></th>
-        <th><b>SID<b></b></th>
+        <th><b>SID</b></th>
       </tr>
     </thead>
     <tbody>
