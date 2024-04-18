@@ -1,8 +1,9 @@
 ---
 layout: contents
+title: Reference
 ---
 
-# Reference
+#### Reference
 
 1. Advantages to using an LRU cache — org.clojure/core.cache 1.1.234. (n.d.). Cljdoc.
 Retrieved March 31, 2024,
@@ -38,5 +39,4 @@ from [https://www.geeksforgeeks.org/cache-eviction-policies-system-design/#4-ran
 
 <br/> <br/> <br/>
 
-
-| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
+[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
