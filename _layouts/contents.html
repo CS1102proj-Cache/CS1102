@@ -55,10 +55,7 @@
       <h2 class="project-author">{{ page.author | default: site.author | default: site.github.project_author }}</h2>
       <h2 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
       <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h3>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      <br/>
+      <a href="https://cs1102proj-cache.github.io/CS1102/" class="btn">Home Page</a>
       <div class="dropdown">
       <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html" class="btn">Table of Contents</a>
         <div class="dropdown-content">
@@ -71,7 +68,9 @@
           <a href="https://cs1102proj-cache.github.io/CS1102/contents/conclusion.html">Conclusion</a>
           <a href="https://cs1102proj-cache.github.io/CS1102/contents/reference.html">Reference</a>
         </div></div>
-<!--       <a href="https://cs1102proj-cache.github.io/CS1102/" class="btn">Home Page</a> -->
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
