@@ -3,26 +3,28 @@ layout: default
 title: "How Cache Accelerates the Input-Output (I/O) of the Memory"
 ---
 
-## Table of Contents
-* [Introduction](./contents/introduction.md)
+<body>
+<h4><b>Table of Contents</b></h4>
+<div class="bodytext">
+<ul><a href="./contents/introduction.html">Introduction]</a></ul>
 
-* [Understanding Cache](./contents/understanding_cache.md)
+<ul>[Understanding Cache](./contents/understanding_cache.md)</ul>
 
-* [Principles of Cache Operation](./contents/principles_of_cache_operation.md)
+<ul>[Principles of Cache Operation](./contents/principles_of_cache_operation.md)</ul>
 
-* [Cache Hierarchy](./contents/cache_hierarchy.md)
+<ul>[Cache Hierarchy](./contents/cache_hierarchy.md)</ul>
 
-* [Cache Algorithms](./contents/cache_algorithms.md)
+<ul>[Cache Algorithms](./contents/cache_algorithms.md)</ul>
 
-* [Acceleration of Memory Access](./contents/acceleration_of_memory_access.md)
+<ul>[Acceleration of Memory Access](./contents/acceleration_of_memory_access.md)</ul>
 
-* [Conclusion](./contents/conclusion.md)
+<ul>Conclusion](./contents/conclusion.md)</ul>
 
-* [Reference](./contents/reference.md)
-  
+<ul>[Reference](./contents/reference.md)</ul>
+
+</div>
 <br/> <br/> <br/> 
 
 
-
-[Back to Home Page](./index.md)
+</body>
 
