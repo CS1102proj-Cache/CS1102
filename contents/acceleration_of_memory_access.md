@@ -24,6 +24,6 @@ There are many benefits to storing frequently accessed data in the cache but the
 <h6>By Velez Hans Josef Tuble (56203178)</h6>
 <br/> <br/>
 <div class="middle">
-<a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_hierarchy.html">Previous: Cache Hierarchy</a> |
+<a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_algorithms.html">Previous: Cache Algorithms</a> |
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/conclusion.html">Next: Conclusion</a>
 <br/> 
