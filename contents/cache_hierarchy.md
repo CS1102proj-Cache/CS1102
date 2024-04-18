@@ -6,26 +6,26 @@ title: Cache Hierarchy
 <h4><b>Cache Hierarchy</b></h4>
 
 <h5><b>A. Overview of Cache Hierarchy with Multiple Levels (L1, L2, L3)</b></h5>
-
+<div class="bodytext">
 Cache hierarchy consists of multiple cache levels, typically known as L1, L2, and L3 caches. Each cache level has different capacity, access time, and proximity to the CPU.
 
 <br/><br/>
 
 <li><b>L1 Cache</b>: The closest cache to the CPU, consisting of separate instruction and data caches. It features the smallest capacity but the least latency. It stores frequently accessed data and instructions. </li><br/>
 
-<li>L2 Cache</b>: The secondary cache with a larger capacity but higher latency, it acts as a mediator between the L1 cache and the main memory. It stores additional data to reduce the need for main memory access. </li><br/>
+<li><b>L2 Cache</b>: The secondary cache with a larger capacity but higher latency, it acts as a mediator between the L1 cache and the main memory. It stores additional data to reduce the need for main memory access. </li><br/>
 
-<li>L3 Cache</b>: The highest cache level with the largest capacity and highest latency, it is typically shared among multiple cores or processors in a multi-core system. </li>
+<li><b>L3 Cache</b>: The highest cache level with the largest capacity and highest latency, it is typically shared among multiple cores or processors in a multi-core system. </li>
 
 <br/> <br/>
-
+</div>
 <h5><b>B. Trade-offs between Cache Size, speed, and Proximity to CPU</b></h5>
-
+<div class="bodytext">
 Cache hierarchy involves trade-offs among cache size, speed, and proximity to the CPU. <br/><br/>
 
 Larger cache sizes can accommodate more data, and thereby raises the chances of cache hits and reduces cache misses. However, they also require more transistors and it leads to higher costs. Designers face the challenge of balancing cache size, cost, and expected benefits from improved performance. Different cache organizations, including direct-mapped, fully associative, or set-associative, have different trade-offs between capacity and access time.
 
-<br/><br/>
+<br/>
 
 <li><b>Direct-mapped Cache</b>: Each memory block maps to a specific cache location, resulting in simple hardware but potential conflicts. </li><br/>
 
@@ -40,9 +40,9 @@ For aches located closer to the CPU, like the L1 cache, have lower latency and f
 <a href="https://www.researchgate.net/figure/A-classical-three-level-cache-hierarchy_fig1_362707415"><img src="./media/P1.png" alt="Image" height=200 width=auto>
 
 <br/> <br/>
-
+</div>
 <h5><b>C. Retrieval process in Cache Hierarchy</b></h5>
-
+<div class="bodytext">
 <a href="https://www.researchgate.net/figure/Cache-hit-rate-versus-cache-size-of-the-BS_fig4_353908720"><img src="./media/P3.png" alt="Image" height=200 width=auto> <br/>
 
 If data is not found in the L1 cache (cache miss), the CPU will check the larger but slower L2 cache. If the data is found in the L2 cache (cache hit), it will be fetched and sent to the CPU. This eliminates the need for main memory access. <br/> <br/>
@@ -56,7 +56,7 @@ If the data is absent in any cache level (cache miss), it has to be fetched from
 <br/>
 
 The cache hierarchy is designed in this way to exploit the principle of locality, which states that programs tend to access data and instructions that are spatially or temporally close to each other. By storing frequently accessed data in the smaller and faster cache levels, the CPU can significantly reduce the time required to access data and improve overall system performance. <br/>
-
+</div>
 <a href="https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384"><img src="./media/P5.png" alt="Image" height=200 width=auto>
 
 <br/> <br/> <br/>
