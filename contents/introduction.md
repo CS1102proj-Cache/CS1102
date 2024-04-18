@@ -1,10 +1,8 @@
 ---
 layout: contents
+title: Introduction
 ---
 
-<head>
-  <title>Introduction</title>
-</head>
 <body>
 
 <h4><b>Introduction</b></h4>
