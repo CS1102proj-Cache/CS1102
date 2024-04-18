@@ -43,17 +43,19 @@ On the other hand, miss rate is the percentage of cache misses,
 <li>Ideal hit rate >= 95%</li>
 <li>Ideal miss rate <= 5%</li>
 <br/>
-Average memory access time can be calculated using the following formula:
+Average memory access time can be calculated using the following formula: <br/>
 <b>Average memory access time</b> = Number of Cache hits + Miss rate * Cache Miss penalty
 
 <br/>
 
 <a href="https://www.hostinger.com/tutorials/cache-miss#What_Is_a_Cache_Miss">* More information about different types of cache misses</a>
 
-</body>
-
 <br/> <br/> <br/>
-###### By Cheng Man Ho (56612619)
+<h6>By Cheng Man Ho (56612619)</h6>
 <br/> <br/>
+<div class="middle">
+<a href="https://cs1102proj-cache.github.io/CS1102/contents/principles_of_cache_operation.html">Previous: Principles of Cache Operation</a><br/> |
+<a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_hierarchy.html">Next: Cache Hierarchy</a>
+</body>
 
 
