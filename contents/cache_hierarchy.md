@@ -60,7 +60,7 @@ The cache hierarchy is designed in this way to exploit the principle of locality
 <a href="https://www.alibabacloud.com/blog/the-mechanism-behind-measuring-cache-access-latency_599384"><img src="./media/P5.png" alt="Image" height=200 width=auto></a>
 
 <br/> <br/> <br/>
-<h6>By Lo Wing Sze (55678893)</h6>h6>
+<h6>By Lo Wing Sze (55678893)</h6>
 <br/> <br/>
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/principles_of_cache_operation.html">Previous: Principles of Cache Operation</a> |
