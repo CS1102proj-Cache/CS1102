@@ -1,10 +1,11 @@
 ---
 layout: contents
+Title: Cache Algorithms
 ---
 
-# Cache Algorithms
+#### Cache Algorithms
 
-### A. LRU, LFU and Random
+##### A. LRU, LFU and Random
 
 LRU, LFU, and random are the common cache replacement policies. 
 
@@ -37,10 +38,10 @@ In a random algorithm, it works very simple. It randomly selects an object and e
 <br/> 
 Every algorithm contains its advantages and disadvantages in using it, people should use it depending on the specific needs of the system. <br/> <br/>
 
-### B. Impact of cache algorithms on cache hit rates
+##### B. Impact of cache algorithms on cache hit rates
 The cache algorithms are crucial in affecting the cache hit rates. The cache replacement policy determines which object to be evicted if a new object is inserted. The LRU and LFU would enhance the possibility of cache hits as they keep recently accessed data and frequently used data. The random replacement would result in poor hit rates due to the random nature of eviction.
 
 <br/> <br/> <br/>
-##### By Ng Wing Hei (56612889)
+###### By Ng Wing Hei (56612889)
 <br/> <br/>
-| [Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md) |
+[Back to Table of Contents](../table_of_contents.md) | [Back to Home Page](../index.md)
