@@ -1,20 +1,10 @@
 ---
 layout: default
 ---
-<head>
-<script>
-    function greetUser() {
-      var name = prompt("Please enter your name:");
-      if (name) {
-        var greeting = "Hello, " + name + "! Welcome to our website.";
-        document.getElementById("greeting").textContent = greeting;
-      }
-    }
-</script>
-</head>
+
 <body>
  <div class="bodytext">
-This project is presented by: <br/>
+<br/><br/> This project is presented by: <br/>
 <table>
     <thead>
       <tr>
