@@ -9,7 +9,7 @@ Title: Cache Algorithms
 
 LRU, LFU, and random are the common cache replacement policies. 
 
-<a href="https://dev.to/satrobit/cache-replacement-algorithms-how-to-efficiently-manage-the-cache-storage-2ne1"><img src="./media/P2.png" alt="Image" height=300>
+<a href="https://dev.to/satrobit/cache-replacement-algorithms-how-to-efficiently-manage-the-cache-storage-2ne1"><img src="./media/P2.png" alt="Image" height=200 width=auto>
 
 
 **LRU (Least Recently Used)** <br/>
