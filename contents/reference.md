@@ -31,7 +31,7 @@ from <a href="https://www.geeksforgeeks.org/cache-eviction-policies-system-desig
 <li>M, T. (2023, October 1). COMPAD: A heterogeneous cache-scratchpad CPU architecture with data layout compaction for embedded loop-dominated applications.  <br/>
 <a href="https://www.researchgate.net/publication/375078971_COMPAD_A_heterogeneous_cachecratchpad_CPU_architecture_with_data_layout_compaction_for_embedded_loop-domin_applications#pf2">https://www.researchgate.net/publication/375078971_COMPAD_A_heterogeneous_cachecratchpad_CPU_architecture_with_data_layout_compaction_for_embedded_loop-domin_applications#pf2</a></li><br/>
 
-<li>Tanenbaum, A. S., & Bos, H. (2015). Modern operating systems. (4th edition / Andrew S. Tanenbaum, Herbert Bos.). Prentice Hall. </a></li><br/>
+<li>Tanenbaum, A. S., & Bos, H. (2015). Modern operating systems. (4th edition / Andrew S. Tanenbaum, Herbert Bos.). Prentice Hall. </li><br/>
 
 <li>Unlocking Efficiency: Exploring Cache Eviction Policies and Their Types (2017, November 9). YouTube: Home. Retrieved March 31, 2024,  <br/>
 from <a href="https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/">https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/</a></li><br/>
