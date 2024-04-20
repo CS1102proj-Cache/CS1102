@@ -33,11 +33,11 @@
 </head>
     
   </head>
-  <body onload='greeting();'>
-    <div id="message"></div>
+  <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
+    <header onload="greeting();" class="page-header" role="banner">
+      <div id="message"></div>
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-author">{{ page.author | default: site.author | default: site.github.project_author }}</h2>
       <h3 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h3>
