@@ -22,13 +22,13 @@
       .middle {text-align: center !important;}
     </style>
     <script>
-    window.addEventListener('DOMContentLoaded', function greeting() {
+    function greeting() {
       var currentPage = window.location.pathname;
       if (currentPage === '/index.html') {
         var userInput = prompt('Please enter your name:');
         console.log('Hello! Welcome ', userInput,' to our website!');
       }
-    });
+    };
   </script>
 </head>
     
