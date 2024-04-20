@@ -22,10 +22,10 @@
       .middle {text-align: center !important;}
     </style>
     <script>
-    window.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('DOMContentLoaded', function greeting() {
       var currentPage = window.location.pathname;
       if (currentPage === '/index.html') {
-        var userInput = prompt('Please enter a your name:');
+        var userInput = prompt('Please enter your name:');
         console.log('Hello! Welcome ', userInput,' to our website!');
       }
     });
@@ -33,7 +33,7 @@
 </head>
     
   </head>
-  <body>
+  <body onload='greeting();'>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
