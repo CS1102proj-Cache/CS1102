@@ -1,8 +1,19 @@
 ---
 layout: default
 ---
-
-<body>
+<head>
+    <script>
+   function greeting() {
+     var firstname ;
+      firstname = prompt("What is your first name?");
+ document.getElementById('message').innerHTML = 'Hello ' + firstname + ' !';
+}
+  </script>
+</head>
+    
+  </head>
+<body onload='greeting();'>
+ <div id="message"></div>
  <div class="bodytext">
 <br/><br/> This project is presented by: <br/>
 <table>
