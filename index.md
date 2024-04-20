@@ -6,6 +6,7 @@ layout: default
    function greeting() {
      var firstname ;
       firstname = prompt("What is your first name?");
+       firstname = firstname.charat(0).toUpperCase() + firstname.slice(1);
  document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
 }
   </script>
