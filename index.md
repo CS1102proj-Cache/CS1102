@@ -6,7 +6,7 @@ layout: default
    function greeting() {
      var firstname ;
       firstname = prompt("What is your first name?");
- document.getElementById('message').innerHTML = 'Hello ' + firstname + ' !';
+ document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
 }
   </script>
 </head>
