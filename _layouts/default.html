@@ -26,7 +26,7 @@
       var currentPage = window.location.pathname;
       if (currentPage === '/index.html') {
         var userInput = prompt('Please enter your name:');
-        console.log('Hello! Welcome ', userInput,' to our website!');
+        document.getElementById('message').innerHTML = 'Hello ' + userInput + ', welcome to our website!';
       }
     };
   </script>
@@ -34,6 +34,7 @@
     
   </head>
   <body onload='greeting();'>
+    <div id="message"></div>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
