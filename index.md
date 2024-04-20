@@ -11,7 +11,6 @@ layout: default
   </script>
 </head>
     
-  </head>
 <body onload='greeting();'>
  <div id="message"></div>
  <div class="bodytext">
