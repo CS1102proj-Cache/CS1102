@@ -28,16 +28,18 @@ layout: default
         }
      function checkvisit() {
           var firstname = localStorage.getItem("firstname");
-          if (firstname == null || firstname !== "") {) { greeting();
+          if (firstname !== null && firstname !== "") {
+               document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
+               document.getElementById('firstnamePlaceholder').textContent = firstname;
           } else {
-          document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
-          document.getElementById('firstnamePlaceholder').textContent = firstname;
+               greeting();
           }
+          
      }     
   </script>
 </head>
     
-<body onload='checkvisit(greeting());'>
+<body onload='checkvisit();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
