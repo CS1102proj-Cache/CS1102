@@ -8,11 +8,11 @@ title: Understanding Caches
 
 <h5><b>A. Comparison of Main Memory and Caches</b></h5>
 <div class="bodytext">
-The major difference between caches’ and main memory’s performance is access speed. As the primary storage unit, main memory is typically built using dynamic random access memory (DRAM), which requires continual refreshing*. Main memory provides a large storage capacity at a low cost. Modern main memory is usually built-in gigabytes (GB). Generally, the main memory is located outside the processor. <br/><br/>
+Access speed is the major difference between caches and main memory.  As the primary storage unit, main memory is typically built using dynamic random access memory (DRAM), which requires continual refreshing*. Main memory provides a large storage capacity at a low cost. ⁤⁤Modern main memory is usually built-in gigabytes (GB). Generally, the main memory is located outside the processor. <br/><br/>
 
-On the other hand, caches are built using static random access memory (SRAM), which does not require refreshing*. Caches have a smaller capacity with a higher cost, compared with main memory. It is usually built in megabytes (MB). It is closer to the CPU, and can be placed inside or outside the processor. <br/><br/>
+On the other hand, caches are built using static random access memory (SRAM), which does not require refreshing*. Caches have a smaller capacity at a higher cost than main memory. It is usually built in megabytes (MB). It is located closer to the CPU and can be placed inside or outside the processor. <br/><br/>
 
-With a smaller capacity, caches can only hold a small amount of data. It enables faster search of required data and reduces latency. Meanwhile, the closer proximity of caches allows a shorter data transfer time, which reduces latency and increases access speed. With the aid of the faster SRAM technology, caches can provide 10-100 times faster access to the stored data than the main memory.
+With a smaller capacity, caches can only hold a small amount of data, but it enables faster data search and reduces latency. Meanwhile, the close proximity of caches allows a shorter data transfer time, which reduces latency and increases access speed. With the aid of faster SRAM technology, caches can provide 10-100 times faster access to the stored data than the main memory.
 <br/><br/>
   <table>
     <thead>
