@@ -4,8 +4,8 @@ layout: default
 <head>
      <style>
         .centered-table {
-            display: flex;
-            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
     <script>
@@ -28,7 +28,7 @@ function checkFirstVisit() {
 <body onload='checkFirstVisit();'>
  <div id="message"></div>
 
- <div class="bodytext middle">
+<div class="bodytext"><div class="middle">
 Welcome to our website! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. Join us as we uncover the benefits that cache brings to your computer system. 
 <br/><br/>This project is presented by: <br/>
   <div class="centered-table">
