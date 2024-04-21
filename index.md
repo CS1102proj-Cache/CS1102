@@ -25,19 +25,19 @@ layout: default
          sessionStorage.setItem("firstname", firstname);
          document.getElementById('firstnamePlaceholder').textContent = firstname;
      }
-     function checkvisit() {
-          var firstname = sessionStorage.getItem("firstname");
-          if (firstname !== null && firstname !== "") {
-               document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
-               document.getElementById('firstnamePlaceholder').textContent = firstname;
-          } else {
-               greeting();
-          }  
-     }     
+     // function checkvisit() {
+     //      var firstname = sessionStorage.getItem("firstname");
+     //      if (firstname !== null && firstname !== "") {
+     //           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
+     //           document.getElementById('firstnamePlaceholder').textContent = firstname;
+     //      } else {
+     //           greeting();
+     //      }  
+     // }     
   </script>
 </head>
     
-<body onload='checkvisit();greeting()'>
+<body onload='greeting()'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
