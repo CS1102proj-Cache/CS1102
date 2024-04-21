@@ -42,7 +42,7 @@ layout: default
   </script>
 </head>
     
-<body onload='checkCache();'>
+<body onload='checkCache();greeting();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
