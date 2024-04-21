@@ -10,9 +10,7 @@ layout: default
     </style>
     <script>
      function greeting() {
-            var name = prompt("What is your first name?");
-            var input = document.getElementById('firstnameInput');
-            var firstname = input.value.trim();
+            var firstname = prompt("What is your first name?");
             if (firstname !== "") {
                 firstname = firstname[0].toUpperCase() + firstname.substring(1);
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
