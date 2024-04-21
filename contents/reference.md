@@ -44,7 +44,7 @@ from <a href="https://www.geeksforgeeks.org/cache-eviction-policies-system-desig
 from <a href="https://www.techtarget.com/searchstorage/definition/cache-memory">https://www.techtarget.com/searchstorage/definition/cache-memory</a></li><br/>
 
 <li>Makhija, B. (2023, January 25). Learn how to elevate your system’s performance with multi-level caching. Medium.<br/>
-from <a href="https://medium.com/@bharatmakhija/learn-how-to-elevate-your-systems-performance-with-multi-level-caching-511efb774a6e">https://medium.com/@bharatmakhija/learn-how-to-elevate-your-systems-performance-with-multi-level-caching-511efb774a6e</a></li><br/>
+<a href="https://medium.com/@bharatmakhija/learn-how-to-elevate-your-systems-performance-with-multi-level-caching-511efb774a6e">https://medium.com/@bharatmakhija/learn-how-to-elevate-your-systems-performance-with-multi-level-caching-511efb774a6e</a></li><br/>
 
 <li>McKinnon, J. (2023, May 10). What are Hit and Miss Ratios? WP Rocket. <br/>
 from <a href="https://wp-rocket.me/blog/calculate-hit-and-miss-ratios/">https://www.techtarget.com/searchstorage/definition/cache-memory</a></li><br/>
@@ -58,10 +58,10 @@ from <a href="https://wp-rocket.me/blog/calculate-hit-and-miss-ratios/">https://
 from <a href="https://www.linkedin.com/pulse/sram-dram-computing-systems-roshan-r-k">https://www.linkedin.com/pulse/sram-dram-computing-systems-roshan-r-k</a></li><br/>
 
 <li>SRAM vs DRAM. (n.d.). Diffen. <br/>
-from <a href="https://www.diffen.com/difference/Dynamic_random-access_memory_vs_Static_random-access_memory">https://www.diffen.com/difference/Dynamic_random-access_memory_vs_Static_random-access_memory</a></li><br/>
+<a href="https://www.diffen.com/difference/Dynamic_random-access_memory_vs_Static_random-access_memory">https://www.diffen.com/difference/Dynamic_random-access_memory_vs_Static_random-access_memory</a></li><br/>
 
 <li>Unlocking Efficiency: Exploring Cache Eviction Policies and Their Types (2017, November 9). YouTube: Home. Retrieved March 31, 2024,  <br/>
-from <a href="https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/">https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/</a></li><br/>
+<a href="https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/">https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/</a></li><br/>
 
 <li>What is caching? | how is a website cached? | cloudflare. (n.d.). <br/>
 <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/">https://www.cloudflare.com/learning/cdn/what-is-caching/ </a> </li><br/>
