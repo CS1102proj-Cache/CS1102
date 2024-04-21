@@ -13,7 +13,7 @@ layout: default
         }
         .scrollable {
              overflow: auto;
-             height: 500px;
+             height: 350px;
              border: 2px solid #000;
         }
     </style>
