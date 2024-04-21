@@ -14,7 +14,7 @@ layout: default
     
 <body onload='greeting();'>
  <div id="message"></div>
- <div class="bodytext">
+ <div class="bodytext middle">
 <br/><br/> This project is presented by: <br/>
 <table>
     <thead>
@@ -45,7 +45,9 @@ layout: default
 
 <br/><br/>
 
-Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Memory"</b>
+Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Memory"
+
+</b></b>
 
 <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
 
