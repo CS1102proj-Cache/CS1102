@@ -93,7 +93,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <div id="method-used">
 <h5>Method Used</h5>
      <div class="scrollable">
-          <ul>HTML5 doctype declaration: <code>&lt;</code>!DOCTYPE html<code>&gt;</code></ul>
+          <ul>HTML5 doctype declaration: &lt;!DOCTYPE html&gt;</ul>
           <ul>HTML document structure using <code>&lt;</code>html<code>&gt;</code>, <code>&lt;</code>head<code>&gt;</code>, and <code>&lt;</code>body<code>&gt;</code> elements.</ul>
           <ul>Metadata definition using <code>&lt;</code>meta<code>&gt;</code> elements for character encoding and viewport settings.</ul>
           <ul>Linking external resources using <code>&lt;</code>link<code>&gt;</code> elements for fonts and stylesheets.</ul>
@@ -121,5 +121,6 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
           <ul>Capitalizing the first letter of a string using JavaScript string manipulation.</ul>
           <ul>Accessing and modifying HTML elements using the getElementById() method.</ul>
           <ul>Modifying the text content of HTML elements using the textContent property.</ul>
+          <ul>Adding a scrolling bar to a section using CSS overflow property.</ul>
 
 </div>
