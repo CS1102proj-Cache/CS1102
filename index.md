@@ -9,23 +9,34 @@ layout: default
         }
     </style>
     <script>
-   var firstname = sessionStorage.getItem("firstname");
-   function greeting() {
+     var firstname = localStorage.getItem("firstname");
+     function greeting() {
       firstname = prompt("What is your first name?");
-      var firstname = firstname[0].toUpperCase() + firstname.substring(1);
- document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
-}
-function checkFirstVisit() {
-     // var isFirstVisit = localStorage.getItem('firstVisit'); 
-      if (firstname === null || firstname === undefined) {greeting()
-      } else {
-        alert("Welcome back, " + firstname +"!");
-      }
-    }
+      firstname = firstname[0].toUpperCase() + firstname.substring(1);
+     document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
+     }
+     function checkCache() {
+          if ('caches' in window) {
+            // Check if the resource is present in the cache
+            caches.match('https://cs1102proj-cache.github.io/CS1102/')
+               .then(response => {
+               if (response) {
+                    console.log("Welcome back, " + firstname + "!");
+                    } else {
+                    greeting();
+                    }
+               })
+               .catch(error => {
+                    console.error('Error checking cache:', error);
+               });
+          } else {
+               console.log('Caching is not supported in this browser.');
+          }
+     }
   </script>
 </head>
     
-<body onload='checkFirstVisit();'>
+<body onload='checkCache();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
