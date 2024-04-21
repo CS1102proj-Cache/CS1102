@@ -19,4 +19,4 @@ title: "How Cache Accelerates the Input-Output (I/O) of the Memory"
 
 
 </body>
-
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/table_of_contents?plain=1">Click to view source code of this page.</u></a>
