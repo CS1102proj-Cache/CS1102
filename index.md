@@ -19,25 +19,24 @@ layout: default
              firstname = firstname[0].toUpperCase() + firstname.substring(1);
              document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
          } else {
-             var firstname = prompt("Please enter your first name.");
              greeting();
          }
          sessionStorage.setItem("firstname", firstname);
          document.getElementById('firstnamePlaceholder').textContent = firstname;
      }
-     // function checkvisit() {
-     //      var firstname = sessionStorage.getItem("firstname");
-     //      if (firstname !== null && firstname !== "") {
-     //           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
-     //           document.getElementById('firstnamePlaceholder').textContent = firstname;
-     //      } else {
-     //           greeting();
-     //      }  
-     // }     
+     function checkvisit() {
+          var firstname = sessionStorage.getItem("firstname");
+          if (firstname !== null && firstname !== "") {
+               document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
+               document.getElementById('firstnamePlaceholder').textContent = firstname;
+          } else {
+               greeting();
+          }  
+     }     
   </script>
 </head>
     
-<body onload='greeting()'>
+<body onload='checkvisit()'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
