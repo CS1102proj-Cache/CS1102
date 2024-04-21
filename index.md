@@ -9,16 +9,23 @@ layout: default
         }
     </style>
     <script>
+   var firstname ;
    function greeting() {
-     var firstname ;
       firstname = prompt("What is your first name?");
-       firstname = firstname[0].toUpperCase() + firstname.substring(1);
+      firstname = firstname[0].toUpperCase() + firstname.substring(1);
  document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
 }
+function checkFirstVisit() {
+     var isFirstVisit = localStorage.getItem('firstVisit'); 
+      if (isFirstVisit === null) {greeting()
+      } else {
+        alert("Welcome back, " + firstname +"!");
+      }
+    }
   </script>
 </head>
     
-<body onload='greeting();'>
+<body onload='checkFirstVisit();'>
  <div id="message"></div>
 
  <div class="bodytext middle">
