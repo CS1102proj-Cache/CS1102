@@ -14,18 +14,17 @@ layout: default
     </style>
     <script>
      function greeting() {
-            var firstname = prompt(" What is your first name?");
-            if (firstname !== null && firstname !== "") {) {
-                firstname = firstname[0].toUpperCase() + firstname.substring(1);
-                document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
-                sessionStorage.setItem("firstname", firstname);
-            } else {
-                var firstname = prompt("Plese enter your first name.");
-                 sessionStorage.setItem("firstname", firstname);
-                 greeting();
-            }
-           document.getElementById('firstnamePlaceholder').textContent = firstname;
-        }
+         var firstname = prompt("What is your first name?");
+         if (firstname !== null && firstname !== "") {
+             firstname = firstname[0].toUpperCase() + firstname.substring(1);
+             document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
+         } else {
+             var firstname = prompt("Please enter your first name.");
+             greeting();
+         }
+         sessionStorage.setItem("firstname", firstname);
+         document.getElementById('firstnamePlaceholder').textContent = firstname;
+     }
      function checkvisit() {
           var firstname = sessionStorage.getItem("firstname");
           if (firstname !== null && firstname !== "") {
