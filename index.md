@@ -17,7 +17,7 @@ layout: default
 }
 function checkFirstVisit() {
      // var isFirstVisit = localStorage.getItem('firstVisit'); 
-      if (firstname === null) {greeting()
+      if (firstname === null || firstname === undefined) {greeting()
       } else {
         alert("Welcome back, " + firstname +"!");
       }
