@@ -40,11 +40,11 @@ With a smaller capacity, caches can only hold a small amount of data. It enables
       </tr>
     </tbody>
   </table>
-</div>
+
 <br/> <br/>
-<div class="bodytext">
+
 <a href="https://www.diffen.com/difference/Dynamic_random-access_memory_vs_Static_random-access_memory">* More information about DRAM and SRAM</a>
-</div>
+
 <br/> <br/> <br/>
 <h6>By Cheng Man Ho (56612619)</h6>
 <br/> <br/>
