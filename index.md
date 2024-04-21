@@ -84,42 +84,42 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
 <br/><br/>
 <div id="video">
-    <iframe width=auto height="400" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
 
 <br/><br/>
 
-<div id="method-used" >
+<div id="method-used">
 <h5>Method Used</h5>
      <div class="scrollable">
-          <li><ul>HTML5 doctype declaration: &amp;lt; !DOCTYPE html &amp;gt;</ul></li>
-          <li><ul>HTML document structure using &amp;lt; html &amp;gt;, &amp;lt; head &amp;gt;, and &amp;lt; body &amp;gt; elements.</ul></li>
-          <li><ul>Metadata definition using &amp;lt; meta &amp;gt; elements for character encoding and viewport settings.</ul></li>
-          <li><ul>Linking external resources using &amp;lt; link &amp;gt; elements for fonts and stylesheets.</ul></li>
-          <li><ul>Customizing styles using &amp;lt; style &amp;gt; blocks and inline CSS.</ul></li>
-          <li><ul>Creating headings using &amp;lt; h1 &amp;gt; to &amp;lt; h6 &amp;gt; elements.</ul></li>
-          <li><ul>Inserting links using &amp;lt; a &amp;gt; elements with the href attribute.</ul></li>
-          <li><ul>Including placeholders for dynamic content using {{ variable }} syntax.</ul></li>
-          <li><ul>Defining classes for styling using class attributes.</ul></li>
-          <li><ul>Wrapping content in &amp;lt; div &amp;gt; elements for organization and styling.</ul></li>
-          <li><ul>Providing alternative text for accessibility using alt attributes.</ul></li>
-          <li><ul>Including JavaScript functions using &amp;lt; script &amp;gt; elements.</ul></li>
-          <li><ul>Including external JavaScript files using &amp;lt; script &amp;gt; elements with the src attribute.</ul></li>
-          <li><ul>Adding semantic elements like &amp;lt; header &amp;gt;, &amp;lt; main &amp;gt;, and &amp;lt; footer &amp;gt; for better structure and accessibility.</ul></li>
-          <li><ul>Including skip navigation links using anchor tags with id attributes.</ul></li>
-          <li><ul>Including comments to document and annotate the code.</ul></li>
-          <li><ul>Using templating language syntax ({{ variable }}) to insert dynamic content.</ul></li>
-          <li><ul>Creating dropdown menus using &amp;lt; div &amp;gt; elements with specific classes.</ul></li>
-          <li><ul>Including images using &amp;lt; img &amp;gt; elements with the src, alt, height, and width attributes.</ul></li>
-          <li><ul>Creating unordered and ordered lists using &amp;lt; ul &amp;gt; and &amp;lt; ol &amp;gt; elements.</ul></li>
-          <li><ul>Creating list items using &amp;lt; li &amp;gt; elements.</ul></li>
-          <li><ul>Nesting lists by placing &amp;lt; ul &amp;gt; or &amp;lt; ol &amp;gt; elements within each other.</ul></li>
-          <li><ul>Including videos using &amp;lt; iframe &amp;gt; elements with the src attribute.</ul></li>
-          <li><ul>Using semantic elements like &amp;lt; pre &amp;gt;, &amp;lt; code &amp;gt;, and &amp;lt; hr &amp;gt; for specific content.</ul></li>
-          <li><ul>Storing and retrieving data in session storage using sessionStorage.setItem() and sessionStorage.getItem().</ul></li>
-          <li><ul>Capitalizing the first letter of a string using JavaScript string manipulation.</ul></li>
-          <li><ul>Accessing and modifying HTML elements using the getElementById() method.</ul></li>
-          <li><ul>Modifying the text content of HTML elements using the textContent property.</ul></li>
+          <ul>HTML5 doctype declaration: <code>&lt;</code>!DOCTYPE html<code>&gt;</code></ul>
+          <ul>HTML document structure using <code>&lt;</code>html<code>&gt;</code>, <code>&lt;</code>head<code>&gt;</code>, and <code>&lt;</code>body<code>&gt;</code> elements.</ul>
+          <ul>Metadata definition using <code>&lt;</code>meta<code>&gt;</code> elements for character encoding and viewport settings.</ul>
+          <ul>Linking external resources using <code>&lt;</code>link<code>&gt;</code> elements for fonts and stylesheets.</ul>
+          <ul>Customizing styles using <code>&lt;</code>style<code>&gt;</code> blocks and inline CSS.</ul>
+          <ul>Creating headings using <code>&lt;</code>h1<code>&gt;</code> to <code>&lt;</code>h6<code>&gt;</code> elements.</ul>
+          <ul>Inserting links using <code>&lt;</code>a<code>&gt;</code> elements with the href attribute.</ul>
+          <ul>Including placeholders for dynamic content using {{ variable }} syntax.</ul>
+          <ul>Defining classes for styling using class attributes.</ul>
+          <ul>Wrapping content in <code>&lt;</code>div<code>&gt;</code> elements for organization and styling.</ul>
+          <ul>Providing alternative text for accessibility using alt attributes.</ul>
+          <ul>Including JavaScript functions using <code>&lt;</code>script<code>&gt;</code> elements.</ul>
+          <ul>Including external JavaScript files using <code>&lt;</code>script<code>&gt;</code> elements with the src attribute.</ul>
+          <ul>Adding semantic elements like <code>&lt;</code>header<code>&gt;</code>, <code>&lt;</code>main<code>&gt;</code>, and <code>&lt;</code>footer<code>&gt;</code> for better structure and accessibility.</ul>
+          <ul>Including skip navigation links using anchor tags with id attributes.</ul>
+          <ul>Including comments to document and annotate the code.</ul>
+          <ul>Using templating language syntax ({{ variable }}) to insert dynamic content.</ul>
+          <ul>Creating dropdown menus using <code>&lt;</code>div<code>&gt;</code> elements with specific classes.</ul>
+          <ul>Including images using <code>&lt;</code>img<code>&gt;</code> elements with the src, alt, height, and width attributes.</ul>
+          <ul>Creating unordered and ordered lists using <code>&lt;</code>ul<code>&gt;</code> and <code>&lt;</code>ol<code>&gt;</code> elements.</ul>
+          <ul>Creating list items using <code>&lt;</code>li<code>&gt;</code> elements.</ul>
+          <ul>Nesting lists by placing <code>&lt;</code>ul<code>&gt;</code> or <code>&lt;</code>ol<code>&gt;</code> elements within each other.</ul>
+          <ul>Including videos using <code>&lt;</code>iframe<code>&gt;</code> elements with the src attribute.</ul>
+          <ul>Using semantic elements like <code>&lt;</code>pre<code>&gt;</code>, <code>&lt;</code>code<code>&gt;</code>, and <code>&lt;</code>hr<code>&gt;</code> for specific content.</ul>
+          <ul>Storing and retrieving data in session storage using sessionStorage.setItem() and sessionStorage.getItem().</ul>
+          <ul>Capitalizing the first letter of a string using JavaScript string manipulation.</ul>
+          <ul>Accessing and modifying HTML elements using the getElementById() method.</ul>
+          <ul>Modifying the text content of HTML elements using the textContent property.</ul>
 
 </div>
