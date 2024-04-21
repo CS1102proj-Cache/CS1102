@@ -31,6 +31,7 @@ layout: default
           if (firstname == "" || firstname == null) { greeting();
           } else {
           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
+          document.getElementById('firstnamePlaceholder').textContent = firstname;
           }
      }     
   </script>
