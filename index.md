@@ -53,8 +53,5 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 
 video
 
- 
-
-
-
+</b></b>
 method used
