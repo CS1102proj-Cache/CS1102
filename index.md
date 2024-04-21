@@ -26,7 +26,7 @@ layout: default
         }
      function checkvisit() {
           var firstname = localStorage.getItem("firstname");
-          if (firstname == "" || firstname == "null") { greeting();
+          if (firstname == "" || firstname == null) { greeting();
           } else {
           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
           }
