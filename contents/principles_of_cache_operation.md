@@ -74,6 +74,8 @@ Average memory access time can be calculated using the following formula: <br/>
 <br/> <br/> <br/>
 <h6>By Cheng Man Ho (56612619)</h6>
 <br/> <br/>
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/contents/principles_of_cache_operation.md?plain=1">Click to view source code of this page.</a>
+<br/> <br/>
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/understanding_cache.html">Previous: Understanding Cache</a> |
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_hierarchy.html">Next: Cache Hierarchy</a></b>
