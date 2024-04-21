@@ -14,6 +14,7 @@ layout: default
         .scrollable {
              overflow: auto;
              height: 500px;
+             border: 2px solid #000;
         }
     </style>
     <script>
@@ -124,3 +125,5 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
           <ul>Using semantic elements like &lt;pre&gt;, &lt;code&gt;, and &lt;hr&gt; for specific content.</ul>
           <ul>Capitalizing the first letter of a string using JavaScript string manipulation.</ul>
 </div>
+<br/>
+<br/>
