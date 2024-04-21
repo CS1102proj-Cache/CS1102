@@ -10,6 +10,7 @@ layout: default
     </style>
     <script>
      function greeting() {
+            var name = prompt("What is your first name?");
             var input = document.getElementById('firstnameInput');
             var firstname = input.value.trim();
             if (firstname !== "") {
@@ -17,7 +18,7 @@ layout: default
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
                 localStorage.setItem("firstname", firstname);
             } else {
-                document.getElementById('message').textContent = "Please enter your name.";
+                document.getElementById('message').textContent = "Please enter your first name.";
             }
         }
         function checkCache() {
