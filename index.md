@@ -7,6 +7,10 @@ layout: default
             margin-left: auto;
             margin-right: auto;
         }
+        .table-container {
+            display: flex;
+            justify-content: center;
+        }
     </style>
     <script>
      function greeting() {
@@ -19,17 +23,23 @@ layout: default
                 greeting();
             }
         }
+     function checkvisit() {
+          var firstname = localStorage.getItem("firstname");
+          if (firstname == null) {greeting();
+          } else {
+          document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
+  }
   </script>
 </head>
     
-<body onload='greeting();'>
+<body onload='checkvisit();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
 Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. Join us as we uncover the benefits that cache brings to your computer system. 
 <br/><br/>This project is presented by: <br/>
   <div class="centered-table">
-    <table>
+    <table class="table-container">
     <thead>
       <tr>
         <th><b>Name</b></th>
