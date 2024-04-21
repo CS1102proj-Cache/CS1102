@@ -48,7 +48,6 @@ layout: default
 Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. <br/> Join us as we uncover the benefits that cache brings to your computer system. 
 <br/><br/>This project is presented by: <br/>
   <div class="centered-table">
-  <div class="table-container">
     <table>
     <thead>
       <tr>
@@ -75,7 +74,7 @@ Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to
       </tr>
     </tbody>
  </table>
-</div></div>
+</div>
 
 <br/><br/>
 
