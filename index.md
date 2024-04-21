@@ -16,7 +16,7 @@ layout: default
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
                 localStorage.setItem("firstname", firstname);
             } else {
-                document.getElementById('message').textContent = "Please enter your first name.";
+                greeting();
             }
         }
   </script>
