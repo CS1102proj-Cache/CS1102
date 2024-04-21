@@ -94,7 +94,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <h5>Method Used</h2>
      <div class="scrollable">
           <ul>HTML5 doctype declaration: <code>&lt;</code>!DOCTYPE html<code>&gt;</code></ul>
-          <ul>HTML document structure using <code>&lt;</code>html>, <code>&lt;</code>head<code>&gt;</code>, and <code>&lt;</code>body<code>&gt;</code> elements.</ul>
+          <ul>HTML document structure using <code>&lt;</code>html<code>&gt;</code>, <code>&lt;</code>head<code>&gt;</code>, and <code>&lt;</code>body<code>&gt;</code> elements.</ul>
           <ul>Metadata definition using <code>&lt;</code>meta<code>&gt;</code> elements for character encoding and viewport settings.</ul>
           <ul>Linking external resources using <code>&lt;</code>link<code>&gt;</code> elements for fonts and stylesheets.</ul>
           <ul>Customizing styles using <code>&lt;</code>style<code>&gt;</code> blocks and inline CSS.</ul>
