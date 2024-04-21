@@ -62,6 +62,8 @@ The cache hierarchy is designed in this way to exploit the principle of locality
 <br/> <br/> <br/>
 <h6>By Lo Wing Sze (55678893)</h6>
 <br/> <br/>
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/contents/cache_hierarchy.md?plain=1">Click to view the source code of this page.</a>
+<br/> <br/>
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/principles_of_cache_operation.html">Previous: Principles of Cache Operation</a> |
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_algorithms.html">Next: Cache Algorithms</a>
