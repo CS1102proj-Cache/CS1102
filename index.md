@@ -19,29 +19,10 @@ layout: default
                 document.getElementById('message').textContent = "Please enter your first name.";
             }
         }
-        function checkCache() {
-            if ('caches' in window) {
-                // Check if the resource is present in the cache
-                caches.match('https://cs1102proj-cache.github.io/CS1102/')
-                    .then(response => {
-                        if (response) {
-                            var firstname = localStorage.getItem("firstname");
-                            console.log("Welcome back, " + firstname + "!");
-                        } else {
-                            greeting();
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error checking cache:', error);
-                    });
-            } else {
-                console.log('Caching is not supported in this browser.');
-            }
-        }
   </script>
 </head>
     
-<body onload='checkCache();greeting();'>
+<body onload='greeting();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
