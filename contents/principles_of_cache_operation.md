@@ -51,7 +51,7 @@ Taking advantage of the principle, these two types of data are stored in the cac
 
 <h5><b>B. Performance Evaluation: Cache Hits and Cache Misses</b></h5>
 
-A cache hit refers to a successful data retrieval from the cache, given that the cache contains the required data. In contrast, a cache miss occurs when data cannot be found in the cache. In the case of a cache miss, the required data must be fetched from a slower memory unit like the main memory. A cache miss penalty is then incurred, which is the additional time or delay. As a result, memory access time would increase.<br/> <br/>
+A <b>cache hit</b> refers to a successful data retrieval from the cache, given that the cache contains the required data. In contrast, a <b>cache miss</b> occurs when data cannot be found in the cache. In the case of a cache miss, the required data must be fetched from a slower memory unit like the main memory. A cache miss penalty is then incurred, which is the additional time or delay. As a result, memory access time would increase.<br/> <br/>
 Cache performance can be measured by hit rate and miss rate. Hit rate is the percentage of cache hits, <br/> <br/>
 
 <b><i>Hit rate</i></b> =  (Number of cache hits / Number of cache accesses) * 100% <br/><br/>
@@ -63,8 +63,8 @@ On the other hand, miss rate is the percentage of cache misses, <br/><br/>
 <li>Ideal hit rate >= 95%</li>
 <li>Ideal miss rate <= 5%</li>
 <br/>
-Average memory access time can be calculated using the following formula: <br/>
-<b>Average memory access time</b> = Number of Cache hits + Miss rate * Cache Miss penalty
+Average memory access time can be calculated using the following formula: <br/> <br/>
+<b><i>Average memory access time</i></b> = Number of Cache hits + Miss rate * Cache Miss penalty
 
 <br/><br/>
 
