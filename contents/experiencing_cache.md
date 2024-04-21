@@ -5,7 +5,7 @@ title: Experiencing Cache
 
 <body>
 Cache memory from the CPU is difficult to experience so we will be using another approach with a similar concept using caches from websites. We can test it using these steps:<br/>
-<ol>
+<br/><ol>
   <li>First clear browser cache in your browser settings to clear all cache for the test.</li>
   <li>Enter any website you like and note how long it loads (using a stopwatch).</li>
   <li>Exit the website.</li>
