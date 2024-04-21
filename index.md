@@ -14,7 +14,7 @@ layout: default
         .scrollable {
              overflow: auto;
              height: 350px;
-             border: 2px solid #000;
+             border: 1px solid #000;
         }
     </style>
     <script>
