@@ -74,4 +74,7 @@ from <a href="https://www.linkedin.com/pulse/sram-dram-computing-systems-roshan-
 
 </ol>
 </div>
+<br/> <br/>
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/contents/reference.md?plain=1">Click to view source code of this page.</a>
+<br/> <br/>
 <br/> <br/> <br/>
