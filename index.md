@@ -19,8 +19,10 @@ layout: default
                 firstname = firstname[0].toUpperCase() + firstname.substring(1);
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
                 localStorage.setItem("firstname", firstname);
+                document.getElementById('firstnamePlaceholder').textContent = firstname;
             } else {
                 var firstname = prompt("What is your first name?");
+                 localStorage.setItem("firstname", firstname);
                  greeting();
             }
         }
@@ -31,16 +33,10 @@ layout: default
           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
           }
      }     
-     function getname() {
-         var firstname = localStorage.getItem("firstname");
-         if (firstname !== null) {
-             document.getElementById('firstnamePlaceholder').textContent = firstname;
-         }
-     }
   </script>
 </head>
     
-<body onload='checkvisit();greeting();getname();'>
+<body onload='checkvisit();greeting();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
