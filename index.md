@@ -91,7 +91,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <br/><br/>
 
 <div id="method-used">
-<h5>Method Used</h2>
+<h5>Method Used</h5>
      <div class="scrollable">
           <ul>HTML5 doctype declaration: <code>&lt;</code>!DOCTYPE html<code>&gt;</code></ul>
           <ul>HTML document structure using <code>&lt;</code>html<code>&gt;</code>, <code>&lt;</code>head<code>&gt;</code>, and <code>&lt;</code>body<code>&gt;</code> elements.</ul>
