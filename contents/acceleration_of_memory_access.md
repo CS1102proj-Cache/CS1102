@@ -23,7 +23,10 @@ There are many benefits to storing frequently accessed data in the cache but the
 <br/> <br/> <br/>
 <h6>By Velez Hans Josef Tuble (56203178)</h6>
 <br/> <br/>
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/contents/acceleration_of_memory_access?plain=1">Click to view source code of this page.</u></a><br/><br/>
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/cache_algorithms.html">Previous: Cache Algorithms</a> |
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/conclusion.html">Next: Conclusion</a>
-<br/> 
+<br/>
+</div>
+</body>
