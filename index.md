@@ -9,11 +9,17 @@ layout: default
         }
     </style>
     <script>
-     var firstname = localStorage.getItem("firstname");
+var firstname = localStorage.getItem("firstname");
      function greeting() {
-      firstname = prompt("What is your first name?");
-      firstname = firstname[0].toUpperCase() + firstname.substring(1);
-     document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
+        var input = document.getElementById('firstnameInput');
+        firstname = input.value.trim();
+        if (firstname !== "") {
+            firstname = firstname[0].toUpperCase() + firstname.substring(1);
+            document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
+            localStorage.setItem("firstname", firstname);
+        } else {
+            greeting(); // Prompt again if the input is empty
+        }
      }
      function checkCache() {
           if ('caches' in window) {
