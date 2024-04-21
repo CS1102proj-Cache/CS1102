@@ -26,7 +26,7 @@ Cache hierarchy involves trade-offs among cache size, speed, and proximity to th
 Larger cache sizes can accommodate more data, and thereby raises the chances of cache hits and reduces cache misses. However, they also require more transistors and it leads to higher costs. Designers face the challenge of balancing cache size, cost, and expected benefits from improved performance. Different cache organizations, including direct-mapped, fully associative, or set-associative, have different trade-offs between capacity and access time.
 
 <br/>
-
+<br/>
 <li><b>Direct-mapped Cache</b>: Each memory block maps to a specific cache location, resulting in simple hardware but potential conflicts. </li><br/>
 
 <li><b>Fully Associative Cache</b>: Any memory block can be stored in any cache location, reducing conflicts but increasing hardware complexity and access time. </li><br/>
