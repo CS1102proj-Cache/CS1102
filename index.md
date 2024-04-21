@@ -13,15 +13,15 @@ layout: default
         }
     </style>
     <script>
-     var firstname = localStorage.getItem("firstname");
      function greeting() {
-            var name = firstname;
-            if (name !== "") {
-                name = firstname[0].toUpperCase() + name.substring(1);
-                document.getElementById('message').textContent = 'Hello ' + name + '! Welcome to our project!';
-                localStorage.setItem("firstname", name);
+            var firstname = localStorage.getItem("firstname");
+            if (firstname !== "") {
+                firstname = firstname[0].toUpperCase() + firstname.substring(1);
+                document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
+                localStorage.setItem("firstname", firstname);
             } else {
-                var name = prompt("What is your first name?");;
+                var firstname = prompt("What is your first name?");
+                 greeting();
             }
         }
      function checkvisit() {
