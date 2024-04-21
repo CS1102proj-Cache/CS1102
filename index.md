@@ -14,8 +14,10 @@ layout: default
     
 <body onload='greeting();'>
  <div id="message"></div>
- <div class="bodytext middle">
+
+ <div class="middle">
      Welcome to our website! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. Join us as we uncover the benefits that cache brings to your computer system. 
+<div class="bodytext">
 <br/><br/>This project is presented by: <br/>
 <table>
     <thead>
@@ -44,7 +46,7 @@ layout: default
     </tbody>
  </table>
 
-<br/><br/>
+<br/><br/></div></div>
 
 Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Memory"
 
