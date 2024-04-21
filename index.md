@@ -14,14 +14,14 @@ layout: default
     </style>
     <script>
      function greeting() {
-            var firstname = localStorage.getItem("firstname");
+            var firstname = prompt(" What is your first name?");
             if (firstname !== "") {
                 firstname = firstname[0].toUpperCase() + firstname.substring(1);
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
                 localStorage.setItem("firstname", firstname);
                 document.getElementById('firstnamePlaceholder').textContent = firstname;
             } else {
-                var firstname = prompt("What is your first name?");
+                var firstname = prompt("Plese enter your first name.");
                  localStorage.setItem("firstname", firstname);
                  greeting();
             }
@@ -40,7 +40,7 @@ layout: default
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
-Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. Join us as we uncover the benefits that cache brings to your computer system. 
+Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. <br/> Join us as we uncover the benefits that cache brings to your computer system. 
 <br/><br/>This project is presented by: <br/>
   <div class="centered-table">
     <table class="table-container">
