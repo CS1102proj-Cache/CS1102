@@ -14,3 +14,5 @@ Cache memory from the CPU is difficult to experience so we will be using another
 Browsers receive website content from web servers which takes time. Browser caches store website content in the device’s hard drive to make access to frequently visited websites more efficient and bypass the need to retrieve data from web servers.
 
 <br/><br/>
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/contents/experiencing_cache.md?plain=1">Click to view the source code of this page.</a>
+<br/> <br/>
