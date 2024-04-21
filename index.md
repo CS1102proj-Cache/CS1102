@@ -35,7 +35,7 @@ layout: default
   </script>
 </head>
     
-<body onload='checkvisit();'>
+<body onload='checkvisit();greeting();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
