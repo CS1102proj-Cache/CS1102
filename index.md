@@ -16,8 +16,8 @@ layout: default
  document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
 }
 function checkFirstVisit() {
-     var isFirstVisit = localStorage.getItem('firstVisit'); 
-      if (isFirstVisit === null) {greeting()
+     // var isFirstVisit = localStorage.getItem('firstVisit'); 
+      if (firstname === null) {greeting()
       } else {
         alert("Welcome back, " + firstname +"!");
       }
