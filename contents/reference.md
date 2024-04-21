@@ -36,6 +36,8 @@ from <a href="https://www.geeksforgeeks.org/cache-eviction-policies-system-desig
 <li>Unlocking Efficiency: Exploring Cache Eviction Policies and Their Types (2017, November 9). YouTube: Home. Retrieved March 31, 2024,  <br/>
 from <a href="https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/">https://www.linkedin.com/pulse/unlocking-efficiency-exploring-cache-eviction-policies-baligh-mehrez/</a></li><br/>
 
+<li>What is caching? | how is a website cached? | cloudflare. (n.d.). <br/><a href="https://www.cloudflare.com/learning/cdn/what-is-caching/">https://www.cloudflare.com/learning/cdn/what-is-caching/ </a> </li><br/>
+
 </ol>
 </div>
 <br/> <br/> <br/>
