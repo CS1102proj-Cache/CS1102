@@ -11,18 +11,19 @@ title: Principles of Cache Operation
 Caches’ operation is based on the principle of locality of reference, which describes that programs tend to access the same set of data or the data with nearby addresses. There are two types of locality, temporal and spatial. <br/>
 
 <li><b>Temporal locality</b>: the tendency of accessing the same data again shortly </li>
-<li><b>Spatial locality</b>: the tendency of accessing the data with addresses near to the current data shortly</li>
+<li><b>Spatial locality</b>: the tendency of accessing the data with addresses near the current data shortly</li>
 <br/>
 Locality is common in loop instructions as some variables are accessed again and again. For example, in the following loop, <br/>
 
-
-```js
+<pre>
+<code>
 sum = 0;
 for (i = 0; i < 5; i++) {
 	sum += a[i];
 }
 return sum;
-```
+</code>
+</pre>
 
 <br/>
 the variable <i>sum</i> is accessed repeatedly during every iteration, illustrating the presence of temporal locality. On the other hand, the array elements a[i] are accessed in consecutive order, demonstrating spatial locality.
