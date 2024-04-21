@@ -15,7 +15,7 @@ layout: default
     <script>
      function greeting() {
             var firstname = prompt(" What is your first name?");
-            if (firstname !== "") {
+            if (firstname !== null && firstname !== "") {) {
                 firstname = firstname[0].toUpperCase() + firstname.substring(1);
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
                 localStorage.setItem("firstname", firstname);
@@ -28,7 +28,7 @@ layout: default
         }
      function checkvisit() {
           var firstname = localStorage.getItem("firstname");
-          if (firstname == "" || firstname == null) { greeting();
+          if (firstname == null || firstname !== "") {) { greeting();
           } else {
           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
           document.getElementById('firstnamePlaceholder').textContent = firstname;
@@ -37,7 +37,7 @@ layout: default
   </script>
 </head>
     
-<body onload='checkvisit();greeting();'>
+<body onload='checkvisit(greeting());'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
