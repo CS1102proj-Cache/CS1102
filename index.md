@@ -2,6 +2,11 @@
 layout: default
 ---
 <head>
+     <style>
+        .centered-table {
+            text-align: center;
+        }
+    </style>
     <script>
    function greeting() {
      var firstname ;
@@ -18,8 +23,8 @@ layout: default
  <div class="bodytext middle">
 Welcome to our website! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. Join us as we uncover the benefits that cache brings to your computer system. 
 <br/><br/>This project is presented by: <br/>
-  <div style="text-align: center;">
-    <table style="display: inline-block;">
+  <div class="centered-table">
+    <table>
     <thead>
       <tr>
         <th><b>Name</b></th>
