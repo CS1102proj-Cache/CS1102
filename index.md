@@ -9,36 +9,36 @@ layout: default
         }
     </style>
     <script>
-var firstname = localStorage.getItem("firstname");
      function greeting() {
-        var input = document.getElementById('firstnameInput');
-        firstname = input.value.trim();
-        if (firstname !== "") {
-            firstname = firstname[0].toUpperCase() + firstname.substring(1);
-            document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
-            localStorage.setItem("firstname", firstname);
-        } else {
-            greeting(); // Prompt again if the input is empty
+            var input = document.getElementById('firstnameInput');
+            var firstname = input.value.trim();
+            if (firstname !== "") {
+                firstname = firstname[0].toUpperCase() + firstname.substring(1);
+                document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
+                localStorage.setItem("firstname", firstname);
+            } else {
+                document.getElementById('message').textContent = "Please enter your name.";
+            }
         }
-     }
-     function checkCache() {
-          if ('caches' in window) {
-            // Check if the resource is present in the cache
-            caches.match('https://cs1102proj-cache.github.io/CS1102/')
-               .then(response => {
-               if (response) {
-                    console.log("Welcome back, " + firstname + "!");
-                    } else {
-                    greeting();
-                    }
-               })
-               .catch(error => {
-                    console.error('Error checking cache:', error);
-               });
-          } else {
-               console.log('Caching is not supported in this browser.');
-          }
-     }
+        function checkCache() {
+            if ('caches' in window) {
+                // Check if the resource is present in the cache
+                caches.match('https://cs1102proj-cache.github.io/CS1102/')
+                    .then(response => {
+                        if (response) {
+                            var firstname = localStorage.getItem("firstname");
+                            console.log("Welcome back, " + firstname + "!");
+                        } else {
+                            greeting();
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error checking cache:', error);
+                    });
+            } else {
+                console.log('Caching is not supported in this browser.');
+            }
+        }
   </script>
 </head>
     
