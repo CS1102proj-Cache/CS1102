@@ -40,7 +40,7 @@ Cache performance can be measured by hit rate and miss rate. Hit rate is the per
 
 On the other hand, miss rate is the percentage of cache misses, <br/><br/>
 
-<b><i>Miss rate</i></b> =  (Number of cache misses / Number of cache accesses) * 100%  <span style="color: red;">OR</span>  1 - hit rate <br/><br/>
+<b><i>Miss rate</i></b> =  (Number of cache misses / Number of cache accesses) * 100%  <span style="color: red;">  OR  </span>  1 - hit rate <br/><br/>
 
 <li>Ideal hit rate >= 95%</li>
 <li>Ideal miss rate <= 5%</li>
