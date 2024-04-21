@@ -33,8 +33,7 @@ layout: default
                document.getElementById('firstnamePlaceholder').textContent = firstname;
           } else {
                greeting();
-          }
-          
+          }  
      }     
   </script>
 </head>
