@@ -15,12 +15,13 @@ layout: default
     <script>
      var firstname = localStorage.getItem("firstname");
      function greeting() {
-            if (firstname !== "") {
-                firstname = firstname[0].toUpperCase() + firstname.substring(1);
-                document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
-                localStorage.setItem("firstname", firstname);
+            var name = firstname;
+            if (name !== "") {
+                name = firstname[0].toUpperCase() + name.substring(1);
+                document.getElementById('message').textContent = 'Hello ' + name + '! Welcome to our project!';
+                localStorage.setItem("firstname", name);
             } else {
-                var firstname = prompt("What is your first name?");;
+                var name = prompt("What is your first name?");;
             }
         }
      function checkvisit() {
@@ -29,13 +30,15 @@ layout: default
           } else {
           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
      }     
+     function getname() {
+     var firstname = localStorage.getItem("firstname");
      if (firstname !== null) {
          document.getElementById('firstnamePlaceholder').textContent = firstname;
      }
   </script>
 </head>
     
-<body onload='checkvisit();greeting();'>
+<body onload='checkvisit();greeting();getname();'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
