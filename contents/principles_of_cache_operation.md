@@ -2,6 +2,25 @@
 layout: contents
 title: Principles of Cache Operation
 ---
+<style>
+	pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            font-size: 14px;
+            color: #333;
+            border-radius: 5px;
+        }
+
+        code {
+            color: blue;
+        }
+
+        .comment {
+            color: green;
+            font-style: italic;
+        }
+</style>
+
 <body>
 <h4><b>Principles of Cache Operation</b></h4>
 
