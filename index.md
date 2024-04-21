@@ -4,7 +4,8 @@ layout: default
 <head>
      <style>
         .centered-table {
-            text-align: center;
+            display: flex;
+            justify-content: center;
         }
     </style>
     <script>
