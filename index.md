@@ -19,12 +19,12 @@ layout: default
                 firstname = firstname[0].toUpperCase() + firstname.substring(1);
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
                 sessionStorage.setItem("firstname", firstname);
-                document.getElementById('firstnamePlaceholder').textContent = firstname;
             } else {
                 var firstname = prompt("Plese enter your first name.");
                  sessionStorage.setItem("firstname", firstname);
                  greeting();
             }
+           document.getElementById('firstnamePlaceholder').textContent = firstname;
         }
      function checkvisit() {
           var firstname = sessionStorage.getItem("firstname");
@@ -38,7 +38,7 @@ layout: default
   </script>
 </head>
     
-<body onload='checkvisit();'>
+<body onload='checkvisit();greeting()'>
  <div id="message"></div>
 
 <div class="bodytext"><div class="middle">
