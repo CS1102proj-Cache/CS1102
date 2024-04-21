@@ -29,11 +29,13 @@ layout: default
           if (firstname == "") { greeting();
           } else {
           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
+          }
      }     
      function getname() {
-     var firstname = localStorage.getItem("firstname");
-     if (firstname !== null) {
-         document.getElementById('firstnamePlaceholder').textContent = firstname;
+         var firstname = localStorage.getItem("firstname");
+         if (firstname !== null) {
+             document.getElementById('firstnamePlaceholder').textContent = firstname;
+         }
      }
   </script>
 </head>
@@ -81,8 +83,17 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 
 <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
 <br/><br/>
-video
+<div id="video">
+    <h2>Video</h2>
+    <!-- Replace the src attribute with the URL of your video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <br/><br/>
-method used
 
-
+<div id="method-used">
+    <h2>Method Used</h2>
+    <p>
+        Insert the description of the method used in your project here.
+    </p>
+</div>
