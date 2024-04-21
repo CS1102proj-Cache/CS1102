@@ -13,22 +13,25 @@ layout: default
         }
     </style>
     <script>
+     var firstname = localStorage.getItem("firstname");
      function greeting() {
-            var firstname = prompt("What is your first name?");
             if (firstname !== "") {
                 firstname = firstname[0].toUpperCase() + firstname.substring(1);
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
                 localStorage.setItem("firstname", firstname);
             } else {
-                greeting();
+                var firstname = prompt("What is your first name?");;
             }
         }
      function checkvisit() {
           var firstname = localStorage.getItem("firstname");
-          if (firstname == null) {greeting();
+          if (firstname == "") { greeting();
           } else {
           document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
-  }
+     }     
+     if (firstname !== null) {
+         document.getElementById('firstnamePlaceholder').textContent = firstname;
+     }
   </script>
 </head>
     
@@ -80,9 +83,3 @@ video
 method used
 
 
-<script>
-  var firstname = localStorage.getItem("firstname");
-  if (firstname !== null) {
-    document.getElementById('firstnamePlaceholder').textContent = firstname;
-  }
-</script>
