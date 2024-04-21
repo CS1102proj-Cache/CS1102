@@ -14,7 +14,9 @@ layout: default
         .scrollable {
              overflow: auto;
              height: 350px;
-             border: 1px solid #000;
+             border: 1px dashed #157878 ;
+             text-align: left !important;
+             border-radius: 5px;
         }
     </style>
     <script>
