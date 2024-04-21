@@ -13,7 +13,7 @@ layout: default
         }
         .scrollable {
              overflow: auto;
-             height: 700px;
+             height: 500px;
         }
     </style>
     <script>
@@ -47,7 +47,8 @@ layout: default
 Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. <br/> Join us as we uncover the benefits that cache brings to your computer system. 
 <br/><br/>This project is presented by: <br/>
   <div class="centered-table">
-    <table class="table-container">
+  <div class="table-container">
+    <table>
     <thead>
       <tr>
         <th><b>Name</b></th>
@@ -73,7 +74,7 @@ Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to
       </tr>
     </tbody>
  </table>
-</div>
+</div></div>
 
 <br/><br/>
 
@@ -91,7 +92,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <br/><br/>
 
 <div id="method-used">
-<h5>Method Used</h5>
+<h5>Method Used (Scroll for more)</h5>
      <div class="scrollable">
           <ul>Adding a scrolling bar to a section using CSS overflow property.</ul>
           <ul>Creating dropdown menus using &lt;div&gt; elements with specific classes.</ul>
