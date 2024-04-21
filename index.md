@@ -9,10 +9,10 @@ layout: default
         }
     </style>
     <script>
-   var firstname ;
+   var firstname = sessionStorage.getItem("firstname");
    function greeting() {
       firstname = prompt("What is your first name?");
-      firstname = firstname[0].toUpperCase() + firstname.substring(1);
+      var firstname = firstname[0].toUpperCase() + firstname.substring(1);
  document.getElementById('message').innerHTML = 'Hello ' + firstname + '!' + ' Welcome to our project!';
 }
 function checkFirstVisit() {
