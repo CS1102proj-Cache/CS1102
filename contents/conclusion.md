@@ -32,6 +32,8 @@ The security and reliability can be further improved. Thus, it can prevent unaut
 <br/> <br/> <br/>
 <h6>By Ng Wing Hei (56612889)</h6>
 <br/> <br/>
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/contents/conclusion.md?plain=1">Click to view the source code of this page.</a>
+<br/> <br/>
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/acceleration_of_memory_access.html">Previous: Acceleration of Memory Access</a> |
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/reference.html">Next: Reference</a>
