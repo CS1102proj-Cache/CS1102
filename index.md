@@ -18,16 +18,16 @@ layout: default
             if (firstname !== null && firstname !== "") {) {
                 firstname = firstname[0].toUpperCase() + firstname.substring(1);
                 document.getElementById('message').textContent = 'Hello ' + firstname + '! Welcome to our project!';
-                localStorage.setItem("firstname", firstname);
+                sessionStorage.setItem("firstname", firstname);
                 document.getElementById('firstnamePlaceholder').textContent = firstname;
             } else {
                 var firstname = prompt("Plese enter your first name.");
-                 localStorage.setItem("firstname", firstname);
+                 sessionStorage.setItem("firstname", firstname);
                  greeting();
             }
         }
      function checkvisit() {
-          var firstname = localStorage.getItem("firstname");
+          var firstname = sessionStorage.getItem("firstname");
           if (firstname !== null && firstname !== "") {
                document.getElementById('message').textContent = "Welcome back, " + firstname + "!";
                document.getElementById('firstnamePlaceholder').textContent = firstname;
