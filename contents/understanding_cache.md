@@ -48,6 +48,8 @@ With a smaller capacity, caches can only hold a small amount of data, but it ena
 <br/> <br/> <br/>
 <h6>By Cheng Man Ho (56612619)</h6>
 <br/> <br/>
+<a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/contents/understanding_cache.md?plain=1">Click to view source code of this page.</a>
+<br/> <br/>
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/introduction.html">Previous: Introduction</a> | 
 <a href="https://cs1102proj-cache.github.io/CS1102/contents/principles_of_cache_operation.html">Next: Principles of Cache Operation</a><br/>
