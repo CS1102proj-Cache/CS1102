@@ -87,7 +87,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
 <br/><br/>
 <div id="video">
-    <iframe width="560" height="315" src="./media/video.mp4" frameborder="0" poster="./media/poster.png" allowfullscreen autoplay></iframe>
+    <video width="560" height="315" src="./media/video.mp4" frameborder="0" poster="./media/poster.png" allowfullscreen autoplay></video>
 </div>
 </div>
 
