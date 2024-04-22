@@ -89,7 +89,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
      <div class="scrollable">
           <ul>Adding a scrolling bar to a section using CSS overflow property.</ul>
           <ul>Creating dropdown menus using &lt;div&gt; elements with specific classes.</ul>
-          <ul>Embedding Youtube Videos using the YouTube IFrame API.</ul>
+          <ul>Embedding YouTube videos using the YouTube IFrame API to autoplay videos.</ul>
           <ul>Using templating language syntax ({{ variable }}) to insert dynamic content.</ul>
           <ul>Storing and retrieving data in session storage using sessionStorage.setItem() and sessionStorage.getItem().</ul>
           <ul>Accessing and modifying HTML elements using the getElementById() method.</ul>
