@@ -124,16 +124,28 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <br/> <br/> </div>
 
 <script>
+  var player;
+  var videoId = 'AtLttEk27AE';
+
   function onYouTubeIframeAPIReady() {
-    new YT.Player('video', {
-      height: '315',
-      width: '560',
-      videoId: 'AtLttEk27AE',
+    player = new YT.Player('video', {
+      height: '630',
+      width: '1120',
+      videoId: videoId,
       playerVars: {
         autoplay: 1, 
         controls: 1, 
-        mute: 0, 
+        mute: 0,
       },
+      events: {
+        onStateChange: onPlayerStateChange
+      }
     });
+  }
+  function onPlayerStateChange(event) {
+    if (event.data === YT.PlayerState.ENDED) {
+      player.seekTo(0); 
+      player.playVideo();
+    }
   }
 </script>
