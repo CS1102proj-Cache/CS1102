@@ -87,14 +87,14 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <div id="method-used">
 <h5>Method Used (Scroll for more)</h5>
      <div class="scrollable">
-          <ul>Adding a scrolling bar to a section using CSS overflow property.</ul>
+          <ul>Adding a scrolling bar to a section using CSS overflow property.</ul>
           <ul>Creating dropdown menus using &lt;div&gt; elements with specific classes.</ul>
           <ul>Embedding YouTube videos using the YouTube IFrame API to autoplay videos.</ul>
-          <ul>Using templating language syntax ({{ variable }}) to insert dynamic content.</ul>
+          <ul>Using templating language syntax to insert dynamic content.</ul>
           <ul>Storing and retrieving data in session storage using sessionStorage.setItem() and sessionStorage.getItem().</ul>
           <ul>Accessing and modifying HTML elements using the getElementById() method.</ul>
           <ul>Modifying the text content of HTML elements using the textContent property.</ul>
-          <ul>HTML5 doctype declaration: &lt;!DOCTYPE html&gt;</ul>
+          <ul>HTML5 doctype declaration: &lt;!DOCTYPE html&gt;.</ul>
           <ul>HTML document structure using &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; elements.</ul>
           <ul>Metadata definition using &lt;meta&gt; elements for character encoding and viewport settings.</ul>
           <ul>Linking external resources using &lt;link&gt; elements for fonts and stylesheets.</ul>
