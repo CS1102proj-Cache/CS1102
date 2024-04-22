@@ -59,7 +59,7 @@ Hit rate is the percentage of cache hits. <br/>
 <b><i>Hit rate</i></b> =  (Number of cache hits / Number of cache accesses) * 100% <br/><br/>
 
 On the other hand, miss rate is the percentage of cache misses. <br/>
-<b><i>Miss rate</i></b> =  (Number of cache misses / Number of cache accesses) * 100%  <span style="color: red;">  OR  </span>  1 - hit rate <br/>
+<b><i>Miss rate</i></b> =  (Number of cache misses / Number of cache accesses) * 100% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: red;">  OR  </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 - hit rate <br/>
 
 <li>Ideal hit rate >= 95%</li>
 <li>Ideal miss rate <= 5%</li>
