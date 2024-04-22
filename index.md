@@ -41,7 +41,7 @@ layout: default
 
 <div class="bodytext">
   <div style="text-align: justify; font-size: 20px !important">
-Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. Join us as we uncover the benefits that cache brings to your computer system.
+Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. <br/> Join us as we uncover the benefits that cache brings to your computer system.
     <br /><br />
   </div>
      This project is presented by: <br/>
@@ -86,7 +86,7 @@ You can watch the video for more information and demonstrations.
 <br/><br/>
 <div id="method-used">
 <h5>Method Used (Scroll for more)</h5>
-     <div class="scrollable">
+     <div class="scrollable"> <div class="bodytext">
           <ul>Adding a scrolling bar to a section using CSS overflow property.</ul>
           <ul>Creating dropdown menus using &lt;div&gt; elements with specific classes.</ul>
           <ul>Embedding YouTube videos using the YouTube IFrame API to autoplay videos.</ul>
@@ -117,7 +117,7 @@ You can watch the video for more information and demonstrations.
           <ul>Including videos using &lt;iframe&gt; elements with the src attribute.</ul>
           <ul>Using semantic elements like &lt;pre&gt;, &lt;code&gt;, and &lt;hr&gt; for specific content.</ul>
           <ul>Capitalizing the first letter of a string using JavaScript string manipulation.</ul>
-</div>
+</div> </div>
 <br/>
 <br/>
 <a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/index.md?plain=1">Click to view the source code of this page.</a>
