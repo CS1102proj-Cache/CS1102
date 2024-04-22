@@ -77,11 +77,10 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 
 <br/><br/>
 You can watch the video for more information and demonstrations.
+<br/>
 <div id="video"></div>
 </div>
-
 <br/><br/>
-<div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
 <br/><br/>
 <div id="method-used">
@@ -126,12 +125,13 @@ You can watch the video for more information and demonstrations.
 <script>
   function onYouTubeIframeAPIReady() {
     new YT.Player('video', {
-      height: 315,
-      width: 560,
+      height: '315',
+      width: '560',
       videoId: 'AtLttEk27AE',
       playerVars: {
         autoplay: 1, 
         controls: 1, 
+        mute: 0, 
       },
     });
   }
