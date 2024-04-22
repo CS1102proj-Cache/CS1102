@@ -126,7 +126,6 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <script>
   var player;
   var videoId = 'AtLttEk27AE';
-
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('video', {
       height: '315',
@@ -145,7 +144,12 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
   function onPlayerStateChange(event) {
     if (event.data === YT.PlayerState.ENDED) {
       player.seekTo(0); 
-      player.onYouTubeIframeAPIReady();
+      player.playvideo();
+      playerVars: {
+        autoplay: 1, 
+        controls: 1, 
+        mute: 0,
+      };
     }
   }
 </script>
