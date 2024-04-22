@@ -130,7 +130,7 @@ You can watch the video for more information and demonstrations.
       width: '720',
       videoId: 'AtLttEk27AE',
       playerVars: {
-        autoplay: 1, 
+        autoplay: 0, 
         controls: 1, 
         mute: 0, 
       },
