@@ -86,7 +86,7 @@ You can watch the video for more information and demonstrations.
 <br/><br/>
 <div id="method-used">
 <h5>Method Used (Scroll for more)</h5>
-     <div class="scrollable"> <div class="bodytext">
+     <div class="scrollable"> <div style="font-size: 16px !important">
           <ul>Adding a scrolling bar to a section using CSS overflow property.</ul>
           <ul>Creating dropdown menus using &lt;div&gt; elements with specific classes.</ul>
           <ul>Embedding YouTube videos using the YouTube IFrame API to autoplay videos.</ul>
