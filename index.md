@@ -19,6 +19,7 @@ layout: default
              border-radius: 5px;
         }
     </style>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script>
      function greeting() {
          var firstname = prompt("What is your first name?");
@@ -86,9 +87,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <div class="middle">
 <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
 <br/><br/>
-<div id="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/AtLttEk27AE?si=N4sNxmPjYozcwdAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<div id="video"></div>
 </div>
 
 <br/><br/>
@@ -130,3 +129,18 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <br/>
 <a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/index.md?plain=1">Click to view the source code of this page.</a>
 <br/> <br/> </div>
+
+<script>
+  function onYouTubeIframeAPIReady() {
+    new YT.Player('video', {
+      height: '315',
+      width: '560',
+      videoId: 'AtLttEk27AE',
+      playerVars: {
+        autoplay: 1, 
+        controls: 1, 
+        mute: 0, 
+      },
+    });
+  }
+</script>
