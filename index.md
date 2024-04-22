@@ -3,14 +3,6 @@ layout: default
 ---
 <head>
      <style>
-        .centered-table {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .table-container {
-            display: flex;
-            justify-content: center;
-        }
         .scrollable {
              overflow: auto;
              height: 350px;
