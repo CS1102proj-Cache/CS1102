@@ -129,8 +129,8 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 
   function onYouTubeIframeAPIReady() {
     player = new YT.Player('video', {
-      height: '630',
-      width: '1120',
+      height: '315',
+      width: '560',
       videoId: videoId,
       playerVars: {
         autoplay: 1, 
@@ -145,7 +145,7 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
   function onPlayerStateChange(event) {
     if (event.data === YT.PlayerState.ENDED) {
       player.seekTo(0); 
-      player.playVideo();
+      player.onYouTubeIframeAPIReady();
     }
   }
 </script>
