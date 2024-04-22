@@ -125,8 +125,8 @@ You can watch the video for more information and demonstrations.
 <script>
   function onYouTubeIframeAPIReady() {
     new YT.Player('video', {
-      height: '315',
-      width: '560',
+      height: '405',
+      width: '720',
       videoId: 'AtLttEk27AE',
       playerVars: {
         autoplay: 1, 
