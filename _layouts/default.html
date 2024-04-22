@@ -20,6 +20,36 @@
       h6 {font-size: 14px !important;}
       .bodytext {font-size: 16px !important; text-align: justify !important;}
       .middle {text-align: center !important;}
+      .dropdown {
+      position: relative;
+      display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f1f1f1;
+        min-width: 200px;
+        z-index: 1;
+      }
+      .dropdown-content a {
+        display: block;
+        padding: 8px 16px;
+        text-decoration: none;
+        color: #144b7f;
+      }
+      .btn:hover, .dropdown:hover .btn {
+        background-color: #f1f1f1;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+/*         background-color: #144b7f; */
+      }
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+        color: #a1a1a1;
+      }
     </style>
 </head>
     
