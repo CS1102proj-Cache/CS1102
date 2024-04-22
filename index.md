@@ -76,14 +76,14 @@ Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to
 Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Memory"</b>
 
 <br/><br/>
-<div class="middle">
-<a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
-<br/><br/>
+You can watch the video for more information and demonstrations.
 <div id="video"></div>
 </div>
 
 <br/><br/>
-
+<div class="middle">
+<a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
+<br/><br/>
 <div id="method-used">
 <h5>Method Used (Scroll for more)</h5>
      <div class="scrollable">
