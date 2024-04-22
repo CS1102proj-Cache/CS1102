@@ -39,10 +39,11 @@ layout: default
 <body onload='checkvisit()'>
  <div id="message"></div>
 
-<div class="bodytext"><div class="middle">
-Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. <br/> Join us as we uncover the benefits that cache brings to your computer system. 
-<br/><br/>
-</div>
+<div class="bodytext">
+  <div style="text-align: justify; font-size: 20px !important">
+Welcome to our website, <span id="firstnamePlaceholder"></span>! We are going to explore the interesting world of cache memory and its role in accelerating memory input-output (I/O). We will break down concepts like memory types, locality, cache hierarchy, and cache replacement policy. Join us as we uncover the benefits that cache brings to your computer system.
+    <br /><br />
+  </div>
      This project is presented by: <br/>
     <table>
     <thead>
