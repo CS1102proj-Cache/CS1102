@@ -11,7 +11,6 @@ layout: default
              border-radius: 5px;
         }
     </style>
-    <script src="https://www.youtube.com/iframe_api"></script>
     <script>
      function greeting() {
          var firstname = prompt("What is your first name?");
@@ -79,7 +78,9 @@ Our project topic is <b>"How Cache Accelerates the Input-Output (I/O) of the Mem
 <br/><br/>
 You can watch the video for more information and demonstrations.
 <br/>
-<div id="video"></div>
+<video controls>
+  <source src="./contents/media/video.mp4" type="video/mp4">
+</video>
 </div>
 <br/><br/>
 <a href="https://cs1102proj-cache.github.io/CS1102/table_of_contents.html">Click here for <u>Table of Contents.</u></a>
@@ -122,18 +123,3 @@ You can watch the video for more information and demonstrations.
 <br/>
 <a href="https://github.com/CS1102proj-Cache/CS1102/blob/main/index.md?plain=1">Click to view the source code of this page.</a>
 <br/> <br/> </div>
-
-<script>
-  function onYouTubeIframeAPIReady() {
-    new YT.Player('video', {
-      height: '405',
-      width: '720',
-      videoId: 'AtLttEk27AE',
-      playerVars: {
-        autoplay: 0, 
-        controls: 1, 
-        mute: 0, 
-      },
-    });
-  }
-</script>
